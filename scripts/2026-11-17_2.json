@@ -4,4 +4,10 @@
   "Unfinished tasks tend to stay in your head *more* than finished ones.",
   "That's why a half-watched series, or an unanswered message, keeps *nagging* you.",
   "The fix? Write down exactly *when* you'll finish it. Your brain relaxes."],
- "outro":"Now you know why you can't stop thinking about it."}
+ "outro":"Now you know why you can't stop thinking about it.",
+ "visuals":[{"type":"emoji","emojis":["🤔","📌"]},
+  {"type":"emoji","emojis":["🧠"]},
+  {"type":"emoji","emojis":["📋","✅"]},
+  {"type":"emoji","emojis":["📺","💬","😩"]},
+  {"type":"emoji","emojis":["📝","😌"]},
+  {"type":"emoji","emojis":["🤯"]}]}

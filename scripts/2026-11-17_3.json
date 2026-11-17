@@ -4,4 +4,10 @@
   "It's called the *frequency illusion*.",
   "The word wasn't suddenly more common. It was always there.",
   "Your brain just *started paying attention* to it. Before, it filtered it out."],
- "outro":"So when something keeps showing up, it's you, not the universe."}
+ "outro":"So when something keeps showing up, it's you, not the universe.",
+ "visuals":[{"type":"emoji","emojis":["🔍"]},
+  {"type":"emoji","emojis":["📖","👀"]},
+  {"type":"emoji","emojis":["🧠","✨"]},
+  {"type":"emoji","emojis":["📊"]},
+  {"type":"emoji","emojis":["🎯","🧠"]},
+  {"type":"emoji","emojis":["🌌","🙋"]}]}

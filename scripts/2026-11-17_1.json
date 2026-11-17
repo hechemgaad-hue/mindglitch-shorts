@@ -4,4 +4,10 @@
   "They guessed *half* the room would notice it.",
   "The real number? Only about *a quarter*.",
   "It's called the *spotlight effect*. We think the world is watching us, but it's mostly busy worrying about itself."],
- "outro":"So stop worrying. Nobody is looking at you."}
+ "outro":"So stop worrying. Nobody is looking at you.",
+ "visuals":[{"type":"emoji","emojis":["👀"]},
+  {"type":"emoji","emojis":["👕","😳"]},
+  {"type":"number","value":50,"unit":"%","label":"They guessed"},
+  {"type":"bars","items":[["Guessed",50],["Reality",25]],"unit":"%"},
+  {"type":"emoji","emojis":["🔦","🧍"]},
+  {"type":"emoji","emojis":["😌"]}]}
