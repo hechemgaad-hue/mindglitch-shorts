@@ -200,6 +200,7 @@ def main(script_path, out):
     seed = abs(hash(s["hook"])) % (2 ** 32)
     mix = np.zeros(len(voice_track))
     mus = music(total, seed)
+    mus = np.pad(mus, (0, max(0, len(mix) - len(mus))))
     mix += mus[: len(mix)] * 1.0
     sfx = np.zeros_like(mix)
     wsh = whoosh()
