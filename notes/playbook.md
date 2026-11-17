@@ -11,7 +11,8 @@ Mis à jour par la tâche "MindGlitch - contrôle performance". Ne changer qu'UN
 - Accroche : promesse ou affirmation surprenante (≤10 mots)
 - Rythme : phrases <14 mots, 18 à 30 s, voix am_michael, boucle outro/accroche
 - Visuels : emojis animés + compteurs/barres, palettes 0 à 4
-- Créneaux : 12:00, 17:00, 20:30 (Paris)
+- Volume : 5 Shorts par jour (décision du propriétaire, 2026-11-17 ; avant : 3). Scripts scripts/AAAA-MM-JJ_1 à _5.
+- Créneaux : 09:00, 12:00, 15:00, 18:00, 20:30 (Paris), un Short par créneau ; ne pas pousser plus de 5 par jour
 - Titres : question ou affirmation choc + " #Shorts"
 
 ## Variété et valeur ajoutée (règle permanente, ajoutée le 2026-11-17)
@@ -34,4 +35,8 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 - Les améliorations techniques sont gérées par la tâche "amelioration qualite" (voir notes/quality.md). Ne pas modifier le générateur pour autre chose qu'un correctif de bug.
 
 ## Journal des changements
-(rien pour l'instant)
+### 2026-11-17 - Passage de 3 à 5 Shorts par jour (décision du propriétaire)
+- Changement : volume 3 -> 5, créneaux 09:00/12:00/15:00/18:00/20:30. Pas lié à un verdict de performance (aucune vidéo évaluée à ce jour).
+- Contrainte : 5 formats différents par jour parmi les 6 de la règle de variété (jamais deux fois le même format le même jour) ; varier voix, palette et longueur.
+- Mesure : comparer vues à 4 h par créneau (les 2 nouveaux, 09:00 et 15:00, sont à surveiller) et vérifier que la baisse de vues par vidéo n'est pas liée à la saturation.
+- Note : les créneaux 09:00 et 15:00 sont une hypothèse à valider ; la tâche de création doit lire cette config (son prompt peut encore mentionner 3 vidéos).
