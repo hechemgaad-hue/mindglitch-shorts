@@ -29,5 +29,9 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 - Premier commentaire : dans createScheduledPost, renseigne info.firstCommentText avec une question courte qui invite à répondre (ex. "Which of these have you noticed in yourself? 👇"), adaptée au sujet de la vidéo. (Metricool publie ce commentaire ; l'épinglage éventuel reste manuel.)
 - Mention "contenu généré par IA" : toujours isAiGeneratedContent true.
 
+## Filet de sécurité du générateur
+- La production utilise make_short.py. Si cette version échoue ou produit un défaut, utiliser make_short_stable.py (dernière version validée) et le signaler dans le compte rendu.
+- Les améliorations techniques sont gérées par la tâche "amelioration qualite" (voir notes/quality.md). Ne pas modifier le générateur pour autre chose qu'un correctif de bug.
+
 ## Journal des changements
 (rien pour l'instant)
