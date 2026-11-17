@@ -100,8 +100,8 @@ def music(dur, seed):
 def parse_words(sentence):
     words = []
     for tok in sentence.split():
-        hl = tok.startswith("*") or tok.endswith("*")
-        clean = tok.strip("*")
+        hl = "*" in tok
+        clean = tok.replace("*", "")
         words.append((clean, hl))
     return words
 
