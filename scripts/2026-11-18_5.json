@@ -1,0 +1,13 @@
+{"title":"Psychology Facts","palette":3,"voice":"af_bella",
+ "hook":"Want someone to like you? Ask for a favor.",
+ "facts":["It's the *Ben Franklin effect*, from a story in his autobiography.",
+  "Franklin won over a rival by borrowing a *rare book* from him.",
+  "In a 1969 study, people who did a favor rated the asker *more favorably*.",
+  "The likely reason is *cognitive dissonance*: I helped him, so I must like him."],
+ "outro":"So today, ask for one small favor.",
+ "visuals":[{"type":"emoji","emojis":["🤝","💬"]},
+  {"type":"emoji","emojis":["📖","🎩"]},
+  {"type":"emoji","emojis":["📚","🧔"]},
+  {"type":"emoji","emojis":["🔬","💵"]},
+  {"type":"emoji","emojis":["🧠","⚖️"]},
+  {"type":"emoji","emojis":["🙋","🤝"]}]}

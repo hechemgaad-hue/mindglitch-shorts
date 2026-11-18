@@ -1,0 +1,13 @@
+{"title":"Psychology Facts","palette":1,"voice":"am_michael",
+ "hook":"Stores are hacking your brain. Three ways.",
+ "facts":["Number one: *anchoring*. A crossed-out price makes the sale price feel cheap.",
+  "Number two: *charm pricing*. A price ending in .99 feels smaller than it is.",
+  "Number three: the *decoy effect*.",
+  "In Dan Ariely's test, a useless option lifted the pricier pick from *32%* to *84%*."],
+ "outro":"Now you know how stores play your brain.",
+ "visuals":[{"type":"emoji","emojis":["🛒","🧠"]},
+  {"type":"emoji","emojis":["🏷️","📉"]},
+  {"type":"emoji","emojis":["💲","🤏"]},
+  {"type":"emoji","emojis":["⚖️","🎭"]},
+  {"type":"bars","items":[["No decoy",32],["With decoy",84]],"unit":"%"},
+  {"type":"emoji","emojis":["🛍️","😎"]}]}

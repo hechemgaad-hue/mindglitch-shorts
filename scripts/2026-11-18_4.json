@@ -1,0 +1,13 @@
+{"title":"Psychology Facts","palette":4,"voice":"am_adam",
+ "hook":"Would you deny what your own eyes see?",
+ "facts":["In 1951, Solomon Asch showed people *three lines* and one simple question.",
+  "Everyone else in the room was secretly an *actor* giving wrong answers.",
+  "Alone, people almost never erred. Under *1%* of answers were wrong.",
+  "But with the actors, about *3 in 4* people went along at least once."],
+ "outro":"Sometimes, you'd deny your own eyes.",
+ "visuals":[{"type":"emoji","emojis":["👁️"]},
+  {"type":"emoji","emojis":["📏","🔬"]},
+  {"type":"emoji","emojis":["🎭","👥"]},
+  {"type":"emoji","emojis":["🧍","✅"]},
+  {"type":"grid","total":20,"on":15,"label":"Went along at least once"},
+  {"type":"emoji","emojis":["🐑","🙈"]}]}

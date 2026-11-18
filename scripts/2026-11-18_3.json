@@ -1,0 +1,13 @@
+{"title":"Psychology Facts","palette":2,"voice":"bm_george",
+ "hook":"Can you solve this in five seconds?",
+ "facts":["A bat and a ball cost *$1.10* together.",
+  "The bat costs *$1* more than the ball.",
+  "Your gut says *10 cents*. The answer is *5 cents*.",
+  "In Shane Frederick's 2005 test, around *half* of students at top universities missed it."],
+ "outro":"Your gut is fast, but not always right.",
+ "visuals":[{"type":"emoji","emojis":["🤔","⏱️"]},
+  {"type":"emoji","emojis":["🏏","⚾"]},
+  {"type":"emoji","emojis":["💵","➕"]},
+  {"type":"emoji","emojis":["😬","5️⃣"]},
+  {"type":"grid","total":20,"on":10,"label":"Missed it"},
+  {"type":"emoji","emojis":["🧠","⚡"]}]}

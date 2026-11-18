@@ -1,0 +1,13 @@
+{"title":"Psychology Facts","palette":0,"voice":"af_heart",
+ "hook":"Venting your anger? It may backfire.",
+ "facts":["In 2002, Brad Bushman insulted students about their *essays*.",
+  "Some then hit a *punching bag*, thinking about the person who insulted them.",
+  "Others just *sat quietly*.",
+  "The punchers later blasted their rival with the *loudest noise* of all groups."],
+ "outro":"Venting doesn't drain anger. It feeds it.",
+ "visuals":[{"type":"emoji","emojis":["😤","🥊"]},
+  {"type":"emoji","emojis":["📝","😠"]},
+  {"type":"emoji","emojis":["🥊","🧠"]},
+  {"type":"emoji","emojis":["🪑","😶"]},
+  {"type":"emoji","emojis":["🔊","💥"]},
+  {"type":"emoji","emojis":["🔥"]}]}
