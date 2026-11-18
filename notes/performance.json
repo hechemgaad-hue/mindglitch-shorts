@@ -1,7 +1,7 @@
 {
  "videos": [
   {
-   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict.",
+   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict. | 2026-11-18 21:25: toujours aucune stat (>27h). Aucun verdict.",
    "videoIds": [
     "q2VL_H_RyUU",
     "wNwrisEAQZE",
@@ -24,6 +24,11 @@
      "at": "2026-11-18T16:25+01:00",
      "views": null,
      "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    },
+    {
+     "at": "2026-11-18T21:25+01:00",
+     "views": null,
+     "note": "Metricool: videos published in range vide; evolution YTEV02/YTEV13 = null/0. Donnees absentes, aucun verdict."
     }
    ]
   },
@@ -43,6 +48,11 @@
      "at": "2026-11-18T16:25+01:00",
      "views": null,
      "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    },
+    {
+     "at": "2026-11-18T21:25+01:00",
+     "views": null,
+     "note": "Metricool: videos published in range vide; evolution YTEV02/YTEV13 = null/0. Donnees absentes, aucun verdict."
     }
    ]
   },
@@ -62,6 +72,11 @@
      "at": "2026-11-18T16:25+01:00",
      "views": null,
      "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    },
+    {
+     "at": "2026-11-18T21:25+01:00",
+     "views": null,
+     "note": "Metricool: videos published in range vide; evolution YTEV02/YTEV13 = null/0. Donnees absentes, aucun verdict."
     }
    ]
   },

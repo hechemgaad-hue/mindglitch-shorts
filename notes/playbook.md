@@ -44,3 +44,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-18 - Controle performance : donnees indisponibles, aucun verdict
 - Metricool (connecteurs "videos published in range" et "all videos", 14->18/11) ne renvoie aucune ligne pour les Shorts MindGlitch, y compris ceux publies le 17/11 (>18 h). Seules 2 vieilles videos non liees apparaissent. Pas de chiffres, donc pas de verdict ni de changement de strategie (on ne fabrique rien).
 - A faire : si toujours vide au prochain controle, verifier la connexion YouTube dans Metricool / consulter YouTube Studio ; l'analyse reprendra des que des chiffres existent.
+
+### 2026-11-18 (soir) - Controle performance : toujours aucune donnee, aucun verdict
+- Metricool (videos published in range 14->18/11 + evolution YTEV02/YTEV13) : aucune ligne / vues null ou 0, y compris pour les Shorts du 17/11 (>27 h). Donnees non exploitables, donc ni verdict 4 h/48 h ni changement de strategie (rien n'est fabrique).
+- Hypothese : liaison YouTube/Metricool a verifier (ou stats non remontees). Action proprietaire : verifier dans YouTube Studio les vues reelles des Shorts du 17 et 18/11 ; si 17/11 < 1000 vues a 48 h (19/11 soir), l'evaluation echec_48h devra etre faite manuellement ou apres retablissement des donnees.
