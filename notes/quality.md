@@ -22,9 +22,11 @@ Contraintes techniques : pas d'accès aux banques d'images ou de vidéos (résea
 Ne jamais modifier ni supprimer une publication Metricool existante.
 
 ## Backlog d'idées (par priorité)
-- [ ] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix
+- [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
 - [ ] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
+- [ ] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres ou agrandir la scène
+- [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
 - [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
 - [ ] Musique différente selon la palette (tonalité, tempo, instrumentation)
@@ -34,4 +36,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
 
 ## Journal des améliorations
-(rien pour l'instant)
+### 2026-11-18 - Normalisation du volume + ducking de la musique
+- Constaté (8 vidéos du 17 et 18/11, 6 images chacune, volumedetect) : 1080x1920 + audio OK, 19 à 25 s. Volume moyen de -18,5 à -21 dB (écart 2,5 dB entre vidéos), trop bas pour des Shorts. Aucune statistique dans performance.json (0 vue renseignée), croisement impossible.
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 (paires d'emojis génériques, jauges/grilles bien) ; rythme 4 ; son 3 (bas et inégal) ; cohérence fond 3 ; différence 3,5 (mise en page identique, tiers inférieur de l'écran vide) ; faits non revérifiés ici.
+- Changé : make_short.py -> ducking de la musique (-65 % sous la voix, enveloppe lissée) + loudnorm 2 passes (cible -14 LUFS, crête -1,5 dBTP) avant encodage. Repli sans normalisation si ffmpeg échoue.
+- Test (scripts/2026-11-18_2 et _3, rendus dans /tmp) : 1080x1920, audio, 24,8 s / 22 s. Intégré -21,3 LUFS -> -15,0 LUFS (_2) et -14,3 LUFS (_3), crête -1,3 dBFS. Images identiques côté visuel/sous-titres, aucune régression. Promu (make_short_stable.py = ancienne version).
+- Note son avant/après : 3 -> 4.
+
+

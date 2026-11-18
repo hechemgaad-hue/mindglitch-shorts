@@ -359,11 +359,35 @@ def main(script_path, out):
     b = boom()
     sfx[: len(b)] += b[: len(sfx)] * 0.5
     peak = np.abs(voice_track).max() + 1e-9
-    mixed = voice_track / peak * 0.85 + mix + sfx
+    # ducking : la musique baisse (~-9 dB) quand la voix parle, enveloppe lissée
+    vt = voice_track / peak
+    hop = int(SR * 0.02)
+    nb = len(vt) // hop + 1
+    rms = np.array([np.sqrt(np.mean(vt[i * hop:(i + 1) * hop] ** 2)) if i * hop < len(vt) else 0.0 for i in range(nb)])
+    act = (rms > 0.02).astype(float)
+    k = np.hanning(21); k /= k.sum()
+    act = np.convolve(np.pad(act, 10, mode="edge"), k, mode="valid")[:nb]
+    gain = 1.0 - 0.65 * act
+    gain_s = np.interp(np.arange(len(mix)) / hop, np.arange(nb), gain)
+    mix = mix * gain_s
+    mixed = vt * 0.85 + mix + sfx
     mixed = mixed / max(1.0, np.abs(mixed).max() / 0.95)
     tmp = tempfile.mkdtemp()
+    raw = f"{tmp}/raw.wav"
     wav = f"{tmp}/mix.wav"
-    sf.write(wav, mixed.astype("float32"), SR)
+    sf.write(raw, mixed.astype("float32"), SR)
+    # normalisation du volume : loudnorm 2 passes, cible -14 LUFS, crête -1.5 dBTP
+    tgt = "I=-14:TP=-1.5:LRA=11"
+    try:
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-i", raw, "-af", f"loudnorm={tgt}:print_format=json", "-f", "null", "-"],
+                           capture_output=True, text=True)
+        m = json.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])
+        af = (f"loudnorm={tgt}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+              f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", af, "-ar", str(SR), wav], check=True)
+    except Exception as e:
+        print("loudnorm ignoré :", e)
+        wav = raw
 
     # --- vidéo ---
     rng = np.random.default_rng(seed)
