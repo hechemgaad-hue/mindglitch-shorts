@@ -40,3 +40,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 - Contrainte : 5 formats différents par jour parmi les 6 de la règle de variété (jamais deux fois le même format le même jour) ; varier voix, palette et longueur.
 - Mesure : comparer vues à 4 h par créneau (les 2 nouveaux, 09:00 et 15:00, sont à surveiller) et vérifier que la baisse de vues par vidéo n'est pas liée à la saturation.
 - Note : les créneaux 09:00 et 15:00 sont une hypothèse à valider ; la tâche de création doit lire cette config (son prompt peut encore mentionner 3 vidéos).
+
+### 2026-11-18 - Controle performance : donnees indisponibles, aucun verdict
+- Metricool (connecteurs "videos published in range" et "all videos", 14->18/11) ne renvoie aucune ligne pour les Shorts MindGlitch, y compris ceux publies le 17/11 (>18 h). Seules 2 vieilles videos non liees apparaissent. Pas de chiffres, donc pas de verdict ni de changement de strategie (on ne fabrique rien).
+- A faire : si toujours vide au prochain controle, verifier la connexion YouTube dans Metricool / consulter YouTube Studio ; l'analyse reprendra des que des chiffres existent.

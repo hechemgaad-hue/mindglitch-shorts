@@ -1,13 +1,31 @@
 {
  "videos": [
   {
+   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict.",
+   "videoIds": [
+    "q2VL_H_RyUU",
+    "wNwrisEAQZE",
+    "btl_lh7FPHg"
+   ]
+  },
+  {
    "file": "2026-11-18_1_v1.mp4",
    "topic": "venting anger myth (Bushman)",
    "hook_type": "affirmation surprenante/mythe",
    "palette": 0,
    "voice": "af_heart",
    "format": "myth",
-   "scheduled": "2026-11-18 09:00 Europe/Paris"
+   "scheduled": "2026-11-18 09:00 Europe/Paris",
+   "videoId": "cXBC1nDfiMc",
+   "published": "2026-11-18T09:00",
+   "title": null,
+   "checks": [
+    {
+     "at": "2026-11-18T16:25+01:00",
+     "views": null,
+     "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    }
+   ]
   },
   {
    "file": "2026-11-18_2_v1.mp4",
@@ -16,7 +34,17 @@
    "palette": 1,
    "voice": "am_michael",
    "format": "top3",
-   "scheduled": "2026-11-18 12:00 Europe/Paris"
+   "scheduled": "2026-11-18 12:00 Europe/Paris",
+   "videoId": "AkgY3XzzWrk",
+   "published": "2026-11-18T12:00",
+   "title": null,
+   "checks": [
+    {
+     "at": "2026-11-18T16:25+01:00",
+     "views": null,
+     "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    }
+   ]
   },
   {
    "file": "2026-11-18_3_v1.mp4",
@@ -25,7 +53,17 @@
    "palette": 2,
    "voice": "bm_george",
    "format": "quiz",
-   "scheduled": "2026-11-18 15:00 Europe/Paris"
+   "scheduled": "2026-11-18 15:00 Europe/Paris",
+   "videoId": "LrEvs1yqLtk",
+   "published": "2026-11-18T15:00",
+   "title": null,
+   "checks": [
+    {
+     "at": "2026-11-18T16:25+01:00",
+     "views": null,
+     "note": "Metricool analytics: aucune ligne renvoyee (donnees absentes/en retard)"
+    }
+   ]
   },
   {
    "file": "2026-11-18_4_v1.mp4",
