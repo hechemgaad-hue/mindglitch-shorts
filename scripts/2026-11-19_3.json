@@ -1,0 +1,57 @@
+{
+ "title": "Psychology Facts",
+ "palette": 1,
+ "voice": "bm_daniel",
+ "hook": "Three mind traps that fool you every day.",
+ "facts": [
+  "*One*: confirmation bias. You favor evidence that agrees with you.",
+  "*Two*: the sunk cost trap. You keep going because you already paid.",
+  "*Three*: hindsight bias. After the fact, you swear you knew it.",
+  "Fischhoff showed this in 1975, and it fooled almost everyone."
+ ],
+ "outro": "Which trap fooled you this week?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪤",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "1️⃣",
+    "🔍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "2️⃣",
+    "💸"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "3️⃣",
+    "🔮"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📚",
+    "🤷"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔",
+    "👇"
+   ]
+  }
+ ]
+}

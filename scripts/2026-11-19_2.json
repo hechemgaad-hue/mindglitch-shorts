@@ -1,0 +1,57 @@
+{
+ "title": "Psychology Facts",
+ "palette": 3,
+ "voice": "bf_emma",
+ "hook": "What if one word could make you turn your head?",
+ "facts": [
+  "Picture a loud, crowded party. You hear only your friend.",
+  "Then someone across the room says *your name*.",
+  "In 1959, Moray found about *a third* of people caught their name in an ignored ear.",
+  "Your brain keeps scanning sounds you think you are ignoring."
+ ],
+ "outro": "One word, and you turned your head.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "👂",
+    "🗣️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎉",
+    "🎶",
+    "👥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📣",
+    "😲"
+   ]
+  },
+  {
+   "type": "grid",
+   "total": 9,
+   "on": 3,
+   "label": "Heard their own name"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "📡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🙄",
+    "👀"
+   ]
+  }
+ ]
+}

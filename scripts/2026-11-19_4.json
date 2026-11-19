@@ -1,0 +1,58 @@
+{
+ "title": "Psychology Facts",
+ "palette": 4,
+ "voice": "am_puck",
+ "hook": "Kids who waited for a marshmallow. Then what?",
+ "facts": [
+  "In the 1960s, Walter Mischel offered kids *one marshmallow* now, or *two* later.",
+  "They had to wait about *15 minutes* alone.",
+  "Early studies linked waiting to better later outcomes.",
+  "A 2018 replication found the link much *weaker* after accounting for family background."
+ ],
+ "outro": "Waiting was never the whole story.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🍡",
+    "👧"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "1️⃣",
+    "🍡",
+    "➡️",
+    "2️⃣"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 15,
+   "unit": " min",
+   "label": "alone with the treat"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📈",
+    "🎓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "📉"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏠",
+    "🧩"
+   ]
+  }
+ ]
+}

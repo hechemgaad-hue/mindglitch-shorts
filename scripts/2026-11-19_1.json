@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 0,
+ "voice": "am_eric",
+ "hook": "You only use 10% of your brain. Wrong.",
+ "facts": [
+  "Brain scans show activity across *almost every region* of your brain.",
+  "Even during sleep, many areas stay active.",
+  "Your brain is only *2%* of your body weight.",
+  "Yet it burns about *20%* of your energy."
+ ],
+ "outro": "So what are you doing with that other 90%?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "❌"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "🧠",
+    "✨"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😴",
+    "💤"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 2,
+   "unit": "%",
+   "label": "of your body weight"
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Weight",
+     2
+    ],
+    [
+     "Energy",
+     20
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤯",
+    "🔋"
+   ]
+  }
+ ]
+}

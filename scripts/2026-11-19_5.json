@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 2,
+ "voice": "af_nova",
+ "hook": "Stop rereading your notes. Do this instead.",
+ "facts": [
+  "Close the book. Write down everything you remember.",
+  "That is called *retrieval practice*.",
+  "Roediger and Karpicke tested it in 2006.",
+  "A week later, testers recalled about *61%*. Rereaders, about *40%*."
+ ],
+ "outro": "Your notes can wait. Test yourself now.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "🚫"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "✍️",
+    "📕"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "💪"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "🎓"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Testing",
+     61
+    ],
+    [
+     "Rereading",
+     40
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝",
+    "⏱️"
+   ]
+  }
+ ]
+}
