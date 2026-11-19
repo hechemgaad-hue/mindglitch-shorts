@@ -284,8 +284,13 @@ def draw_visual(im, spec, lp, t, accent, fonts):
     elif typ == "number":
         v = spec["value"]
         e = 1 - (1 - clamp01(lp / 0.9)) ** 3
-        f_n = fonts.setdefault("nn", ImageFont.truetype(FONT, 330))
         txt = f"{int(round(v * e))}{spec.get('unit', '')}"
+        full = f"{int(round(v))}{spec.get('unit', '')}"
+        # taille auto : le nombre final doit tenir en largeur (marge 90 px)
+        nsz = 330
+        while nsz > 120 and ImageDraw.Draw(im).textlength(full, font=fonts.setdefault(("nn", nsz), ImageFont.truetype(FONT, nsz))) + 30 > W - 180:
+            nsz -= 10
+        f_n = fonts.setdefault(("nn", nsz), ImageFont.truetype(FONT, nsz))
         pop = 1 + 0.08 * (1 - clamp01(lp / 0.4))
         d.text((W / 2, CY), txt, font=f_n, fill=accent, anchor="mm", stroke_width=10, stroke_fill=(10, 10, 20))
         if spec.get("label"):

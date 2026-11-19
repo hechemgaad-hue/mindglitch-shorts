@@ -25,12 +25,13 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
 - [ ] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
-- [ ] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres ou agrandir la scène
+- [ ] Occuper le tiers inférieur vide (constaté à nouveau le 19/11 : ~40 % de l'écran vide en bas, priorité haute) : recentrer verticalement emoji + sous-titres ou agrandir la scène
 - [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
 - [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
 - [ ] Musique différente selon la palette (tonalité, tempo, instrumentation)
 - [ ] Mise en avant visuelle de la révélation (zoom plus fort, mot en grand plein écran)
+- [ ] Scènes à un seul emoji (ex. "2006.") : ajouter une carte date/année plein écran ou un second visuel pertinent
 - [ ] Styles de sous-titres différents selon le format (quiz, top 3, mythe)
 - [ ] Image de couverture (miniature) soignée si la chaîne l'autorise (videoThumbnailUrl dans Metricool, nécessite une chaîne vérifiée)
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
@@ -43,4 +44,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Test (scripts/2026-11-18_2 et _3, rendus dans /tmp) : 1080x1920, audio, 24,8 s / 22 s. Intégré -21,3 LUFS -> -15,0 LUFS (_2) et -14,3 LUFS (_3), crête -1,3 dBFS. Images identiques côté visuel/sous-titres, aucune régression. Promu (make_short_stable.py = ancienne version).
 - Note son avant/après : 3 -> 4.
 
+### 2026-11-19 - Grand nombre auto-ajusté (plus de coupure)
+- Constaté (10 vidéos du 18 et 19/11, 6 images chacune, volumedetect) : tout en 1080x1920 + audio, 17 à 25 s. Volume moyen du 19/11 : -13,7 à -14,5 dB (homogène, normalisation OK) contre -18,5 à -21 dB le 18/11. performance.json : toujours aucune statistique, croisement impossible.
+- Défaut grave : dans 2026-11-19_4 (type "number"), "15 min" à 330 px dépasse la largeur et s'affiche "L5 mir" (coupé des deux côtés). Autres défauts : tiers inférieur vide, paires d'emojis génériques (microscope + diagramme répétés), scène "2006." avec un seul emoji.
+- Notes moyennes (estimées) : lisibilité 4 (3 sur la vidéo au nombre coupé) ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5.
+- Changé : make_short.py -> taille de police du visuel "number" calculée pour que la valeur finale tienne dans la largeur (marge 90 px, plancher 120 px).
+- Test (scripts/2026-11-19_4 rendu dans /tmp, ancien vs nouveau) : 1080x1920, audio, 21,8 s, volume identique (-14,5 dB) ; 8 images comparées : "15 min" entièrement visible, sous-titres et rythme inchangés. Promu (make_short_stable.py = version précédente).
+- Note lisibilité avant/après sur ce cas : 3 -> 5.
 
