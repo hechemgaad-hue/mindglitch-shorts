@@ -48,3 +48,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-18 (soir) - Controle performance : toujours aucune donnee, aucun verdict
 - Metricool (videos published in range 14->18/11 + evolution YTEV02/YTEV13) : aucune ligne / vues null ou 0, y compris pour les Shorts du 17/11 (>27 h). Donnees non exploitables, donc ni verdict 4 h/48 h ni changement de strategie (rien n'est fabrique).
 - Hypothese : liaison YouTube/Metricool a verifier (ou stats non remontees). Action proprietaire : verifier dans YouTube Studio les vues reelles des Shorts du 17 et 18/11 ; si 17/11 < 1000 vues a 48 h (19/11 soir), l'evaluation echec_48h devra etre faite manuellement ou apres retablissement des donnees.
+
+### 2026-11-19 (nuit) - Controle performance : toujours aucune donnee, aucun verdict
+- Metricool (videos published in range 10->19/11) renvoie 0 ligne, y compris pour les Shorts du 17/11 (>30 h) et du 18/11 matin (>16 h). Aucun chiffre, donc ni verdict ni changement de strategie.
+- Action proprietaire : verifier la liaison YouTube dans Metricool et les vues dans YouTube Studio. Les echeances 48 h du 17/11 (19/11 soir) ne pourront etre jugees qu'avec des donnees.
