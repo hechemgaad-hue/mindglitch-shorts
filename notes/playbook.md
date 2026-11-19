@@ -56,3 +56,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-19 (apres-midi) - Controle performance : toujours aucune donnee, aucun verdict
 - Metricool (videos published in range 15->19/11, metrics YTVP02/04/17/06/07/08/09/11/12) renvoie 0 ligne, y compris pour les Shorts du 17/11 (>46 h, echeance 48 h a 18:00-21:30 ce soir) et du 18/11. Rien n'est fabrique : ni verdict ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (4e controle consecutif vide) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; sans donnees, les regles 4 h/48 h ne peuvent pas etre appliquees.
+
+### 2026-11-19 (soir) - Controle performance : 5e controle vide, echeance 48 h depassee sans donnees
+- Metricool (videos published in range 15->19/11, memes metriques) renvoie 0 ligne : Shorts du 17/11 (>51 h, echeance 48 h passee) et du 18/11 non evaluables. Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
+- Action proprietaire : relever les vues dans YouTube Studio et/ou reconnecter YouTube dans Metricool ; evaluation echec_48h/ok_48h a faire manuellement a partir de ces chiffres.
