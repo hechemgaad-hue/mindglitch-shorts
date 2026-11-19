@@ -112,6 +112,71 @@
    "voice": "af_bella",
    "format": "tip",
    "scheduled": "2026-11-18 20:30 Europe/Paris"
+  },
+  {
+   "file": "2026-11-19_1_v1.mp4",
+   "topic": "10 percent brain myth",
+   "hook_type": "affirmation surprenante/mythe",
+   "palette": 0,
+   "voice": "am_eric",
+   "format": "myth",
+   "scheduled": "2026-11-19 09:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-19_2_v1.mp4",
+   "topic": "cocktail party effect",
+   "hook_type": "question/que se passe-t-il si",
+   "palette": 3,
+   "voice": "bf_emma",
+   "format": "whatif",
+   "scheduled": "2026-11-19 12:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-19_3_v1.mp4",
+   "topic": "top 3 biases",
+   "hook_type": "promesse/top 3",
+   "palette": 1,
+   "voice": "bm_daniel",
+   "format": "top3",
+   "scheduled": "2026-11-19 15:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-19_4_v1.mp4",
+   "topic": "marshmallow test",
+   "hook_type": "question/expérience célèbre",
+   "palette": 4,
+   "voice": "am_puck",
+   "format": "story",
+   "scheduled": "2026-11-19 18:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-19_5_v1.mp4",
+   "topic": "retrieval practice",
+   "hook_type": "ordre/astuce",
+   "palette": 2,
+   "voice": "af_nova",
+   "format": "tip",
+   "scheduled": "2026-11-19 20:30 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
   }
  ]
 }
