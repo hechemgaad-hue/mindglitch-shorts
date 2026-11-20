@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 4,
+ "voice": "af_heart",
+ "hook": "One sentence that makes you do what you planned.",
+ "facts": [
+  "It's called an *if-then plan*.",
+  "The *cue* does the remembering for you.",
+  "Not 'I'll study', but: *If it's 7 p.m., I open my book.*",
+  "In 2006, Gollwitzer and Sheeran reviewed *94 studies*.",
+  "Plans with a trigger beat *good intentions*."
+ ],
+ "outro": "Name the trigger. Then do the thing.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝",
+    "🎯"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔀",
+    "✅"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔔",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⏰",
+    "📖"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 94,
+   "unit": " studies",
+   "label": "reviewed in 2006"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏆",
+    "📈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔔",
+    "✅"
+   ]
+  }
+ ]
+}

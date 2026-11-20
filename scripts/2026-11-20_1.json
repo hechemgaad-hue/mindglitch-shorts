@@ -1,0 +1,65 @@
+{
+ "title": "Psychology Facts",
+ "palette": 0,
+ "voice": "am_adam",
+ "hook": "Are you a visual learner? Think again.",
+ "facts": [
+  "Many people believe teaching should match their *learning style*.",
+  "Visual, auditory, hands-on: the idea is *everywhere* in schools.",
+  "A 2008 review found *little evidence* that it improves learning.",
+  "People do have preferences. They just don't predict results.",
+  "A map is best seen, whatever your *style*."
+ ],
+ "outro": "You were never just one kind of learner.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀",
+    "🎧",
+    "✋"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧑‍🎓",
+    "📚"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏫",
+    "🌍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "📄"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "❤️",
+    "🤷"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗺️",
+    "👀"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠"
+   ]
+  }
+ ]
+}

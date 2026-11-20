@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 3,
+ "voice": "am_michael",
+ "hook": "What happens when you swap cash for a card?",
+ "facts": [
+  "Paying with cash makes the cost feel more *real*.",
+  "In 2001, Prelec and Simester auctioned Celtics tickets to *MIT students*.",
+  "Those paying by card bid up to *twice* as much.",
+  "Plastic hides the pain, so spending feels *lighter*."
+ ],
+ "outro": "Swap cash for a card, and spending changes.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "💵",
+    "💳"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😬",
+    "💵"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏀",
+    "🎟️"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 2,
+   "unit": "x",
+   "label": "card bids, at most, vs cash"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💳",
+    "🎈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔄",
+    "💸"
+   ]
+  }
+ ]
+}

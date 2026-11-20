@@ -222,6 +222,71 @@
    "published": null,
    "title": null,
    "checks": []
+  },
+  {
+   "file": "2026-11-20_1_v1.mp4",
+   "topic": "learning styles myth",
+   "hook_type": "affirmation/mythe",
+   "palette": 0,
+   "voice": "am_adam",
+   "format": "myth",
+   "scheduled": "2026-11-20 09:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-20_2_v1.mp4",
+   "topic": "monty hall",
+   "hook_type": "question/quiz",
+   "palette": 1,
+   "voice": "bf_emma",
+   "format": "quiz",
+   "scheduled": "2026-11-20 12:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-20_3_v1.mp4",
+   "topic": "loftus palmer",
+   "hook_type": "affirmation surprenante/histoire",
+   "palette": 2,
+   "voice": "bm_george",
+   "format": "story",
+   "scheduled": "2026-11-20 15:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-20_4_v1.mp4",
+   "topic": "cash vs card",
+   "hook_type": "question/que se passe-t-il si",
+   "palette": 3,
+   "voice": "am_michael",
+   "format": "whatif",
+   "scheduled": "2026-11-20 18:00 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
+  },
+  {
+   "file": "2026-11-20_5_v1.mp4",
+   "topic": "implementation intentions",
+   "hook_type": "promesse/astuce",
+   "palette": 4,
+   "voice": "af_heart",
+   "format": "tip",
+   "scheduled": "2026-11-20 20:30 Europe/Paris",
+   "videoId": null,
+   "published": null,
+   "title": null,
+   "checks": []
   }
  ]
 }

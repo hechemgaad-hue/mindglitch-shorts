@@ -1,0 +1,63 @@
+{
+ "title": "Psychology Facts",
+ "palette": 2,
+ "voice": "bm_george",
+ "hook": "One word made witnesses remember a faster crash.",
+ "facts": [
+  "In 1974, Elizabeth *Loftus* showed students films of car crashes.",
+  "Some were asked how fast the cars *smashed*. Others, *contacted*.",
+  "The smashed group guessed about *41 mph*. The other group, *32*.",
+  "Memory isn't a *recording*. Wording can reshape it."
+ ],
+ "outro": "One word. A different memory.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚗",
+    "💥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎬",
+    "🧑‍🎓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "💬"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Smashed",
+     41
+    ],
+    [
+     "Contacted",
+     32
+    ]
+   ],
+   "unit": " mph"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🔄"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💭"
+   ]
+  }
+ ]
+}

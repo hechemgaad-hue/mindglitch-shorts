@@ -1,0 +1,81 @@
+{
+ "title": "Psychology Facts",
+ "palette": 1,
+ "voice": "bf_emma",
+ "hook": "Three doors. One prize. Should you switch?",
+ "facts": [
+  "You pick one door. The host opens a losing one.",
+  "He always knew where the *prize* was.",
+  "In *1990*, Marilyn vos Savant explained the puzzle in her column.",
+  "Now you can stay, or *switch*. Which is smarter?",
+  "Most people stay, because staying feels *safer*.",
+  "Switching wins *two out of three* times."
+ ],
+ "outro": "Stay, or switch? Now you know.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🚪",
+    "🚪"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🎩"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🕵️",
+    "🎁"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📰",
+    "✍️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔁",
+    "❓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔",
+    "🛡️"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Stay",
+     33
+    ],
+    [
+     "Switch",
+     67
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🔄"
+   ]
+  }
+ ]
+}
