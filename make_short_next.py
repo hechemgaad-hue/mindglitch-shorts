@@ -226,13 +226,13 @@ def clamp01(x):
 def draw_visual(im, spec, lp, t, accent, fonts):
     d = ImageDraw.Draw(im, "RGBA")
     typ = spec.get("type", "emoji")
-    CY = 640
+    CY = 780  # recentré (avant 640) : le tiers inférieur n'est plus vide
     paste_c(im, glow_sprite(tuple(accent)), W / 2, CY, 1.0 + 0.04 * np.sin(t * 2), alpha=clamp01(lp / 0.3))
     if typ == "emoji":
         ems = spec.get("emojis") or ["✨"]
         n = len(ems)
-        size = {1: 340, 2: 270, 3: 230}.get(n, 200)
-        xs = {1: [W / 2], 2: [W / 2 - 210, W / 2 + 210], 3: [W / 2 - 300, W / 2, W / 2 + 300]}.get(
+        size = {1: 400, 2: 310, 3: 260}.get(n, 200)
+        xs = {1: [W / 2], 2: [W / 2 - 230, W / 2 + 230], 3: [W / 2 - 300, W / 2, W / 2 + 300]}.get(
             n, [W / 2 - 330 + 220 * i for i in range(n)])
         for i, e in enumerate(ems):
             spr = emoji_img(e)
@@ -248,7 +248,7 @@ def draw_visual(im, spec, lp, t, accent, fonts):
         bw, gap = 250, 110
         total_w = n * bw + (n - 1) * gap
         x0 = W / 2 - total_w / 2
-        base_y = 930
+        base_y = CY + 290
         f_val = fonts.setdefault("bv", ImageFont.truetype(FONT, 92))
         f_lab = fonts.setdefault("bl", ImageFont.truetype(FONT, 50))
         for i, (lab, v) in enumerate(items):
@@ -268,7 +268,7 @@ def draw_visual(im, spec, lp, t, accent, fonts):
         rows = -(-total // cols)
         cell, step = 110, 160
         gx = W / 2 - (cols - 1) * step / 2
-        gy = CY - (rows - 1) * step / 2
+        gy = CY - 60 - (rows - 1) * step / 2
         for i in range(total):
             r, c = divmod(i, cols)
             pop = ease_out_back(clamp01((lp - 0.03 * i) / 0.3))
@@ -443,7 +443,7 @@ def main(script_path, out):
         font = fonts.setdefault(size, ImageFont.truetype(FONT, size))
         lines = layout(words, page, font, W - 190)
         lh = size * 1.22
-        y0 = H * 0.66 - lh * len(lines) / 2 + lh / 2
+        y0 = H * 0.725 - lh * len(lines) / 2 + lh / 2
         pop_t = (t - edges[cur_w]) / 0.16
         for li, ln in enumerate(lines):
             widths = [d.textlength(words[i][0].upper(), font=font) * (1.12 if i == cur_w else 1.0) for i in ln]

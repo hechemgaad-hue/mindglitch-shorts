@@ -23,9 +23,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 
 ## Backlog d'idées (par priorité)
 - [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
+- [ ] Emojis qui apparaissent minuscules au début d'une scène (ex. 🌍, 📈 à 1/6 de scène) : accélérer le pop ou démarrer à 60 % de taille
+- [ ] Fond animé qui occupe le bas (vagues/particules plus denses) pour renforcer le rythme visuel
 - [ ] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
-- [ ] Occuper le tiers inférieur vide (constaté à nouveau le 19/11 : ~40 % de l'écran vide en bas, priorité haute) : recentrer verticalement emoji + sous-titres ou agrandir la scène
+- [x] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres (fait 2026-11-20 ; reste ~20 % vide en bas, volontaire pour la zone d'interface Shorts)
 - [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
 - [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
@@ -52,3 +54,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Test (scripts/2026-11-19_4 rendu dans /tmp, ancien vs nouveau) : 1080x1920, audio, 21,8 s, volume identique (-14,5 dB) ; 8 images comparées : "15 min" entièrement visible, sous-titres et rythme inchangés. Promu (make_short_stable.py = version précédente).
 - Note lisibilité avant/après sur ce cas : 3 -> 5.
 
+
+### 2026-11-20 - Recentrage vertical (scène + sous-titres)
+- Constaté (10 vidéos des 19 et 20/11, 6 images pour 6 d'entre elles, volumedetect) : toutes 1080x1920 + audio, 16,9 à 24,2 s, volume moyen -13,5 à -15,2 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : ~40 % de l'écran vide en bas (scène à y=640, sous-titres à 66 %), emojis de taille modeste, paires d'emojis génériques (école + globe, microscope + document), emojis minuscules au début du pop. Sous-titres entiers, "15 min" OK.
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5.
+- Changé : make_short.py -> centre de scène 640 -> 780, emojis +15 %, barres liées au centre, grille décalée, sous-titres 66 % -> 72,5 % de la hauteur.
+- Test (scripts 2026-11-20_3, 2026-11-20_1, 2026-11-19_4, rendus /tmp, ancien vs nouveau) : 1080x1920, audio, durées identiques, volume identique (-13,5/-15,2/-14,5 dB). 6 images par vidéo : sous-titres entiers, barres, nombre "15 min" et emojis bien placés, rythme inchangé. Promu (make_short_stable.py = version précédente).
+- Note mise en page avant/après : 3 -> 4.
