@@ -1,7 +1,7 @@
 {
  "videos": [
   {
-   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict. | 2026-11-18 21:25: toujours aucune stat (>27h). Aucun verdict. | 2026-11-19 01:25: toujours aucune stat (>30h). Aucun verdict. | 2026-11-19 16:25: toujours aucune stat (>46 h). Aucun verdict. | 2026-11-19 21:30: toujours aucune stat (>51 h). Aucun verdict. | 2026-11-20 00:25: toujours aucune stat. Aucun verdict. | 2026-11-20 16:25: toujours aucune stat. Aucun verdict.",
+   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict. | 2026-11-18 21:25: toujours aucune stat (>27h). Aucun verdict. | 2026-11-19 01:25: toujours aucune stat (>30h). Aucun verdict. | 2026-11-19 16:25: toujours aucune stat (>46 h). Aucun verdict. | 2026-11-19 21:30: toujours aucune stat (>51 h). Aucun verdict. | 2026-11-20 00:25: toujours aucune stat. Aucun verdict. | 2026-11-20 16:25: toujours aucune stat. Aucun verdict. | 2026-11-20 21:25: toujours aucune stat. Aucun verdict.",
    "videoIds": [
     "q2VL_H_RyUU",
     "wNwrisEAQZE",
@@ -54,6 +54,11 @@
      "at": "2026-11-20T16:25+01:00",
      "views": null,
      "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    },
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -101,6 +106,11 @@
     },
     {
      "at": "2026-11-20T16:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    },
+    {
+     "at": "2026-11-20T21:25+01:00",
      "views": null,
      "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
     }
@@ -152,6 +162,11 @@
      "at": "2026-11-20T16:25+01:00",
      "views": null,
      "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    },
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -184,7 +199,13 @@
    "videoId": null,
    "published": null,
    "title": null,
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-19_2_v1.mp4",
@@ -197,7 +218,13 @@
    "videoId": null,
    "published": null,
    "title": null,
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-19_3_v1.mp4",
@@ -210,7 +237,13 @@
    "videoId": null,
    "published": null,
    "title": null,
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-19_4_v1.mp4",
@@ -223,7 +256,13 @@
    "videoId": null,
    "published": null,
    "title": null,
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-19_5_v1.mp4",
@@ -236,7 +275,13 @@
    "videoId": null,
    "published": null,
    "title": null,
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-20_1_v1.mp4",
@@ -249,7 +294,13 @@
    "videoId": null,
    "published": null,
    "title": "Are you really a visual learner? #Shorts",
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-20_2_v1.mp4",
@@ -262,7 +313,13 @@
    "videoId": null,
    "published": null,
    "title": "Three doors, one prize: stay or switch? #Shorts",
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-20_3_v1.mp4",
@@ -275,7 +332,13 @@
    "videoId": null,
    "published": null,
    "title": "One word changed what witnesses remembered #Shorts",
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-20_4_v1.mp4",
@@ -288,7 +351,13 @@
    "videoId": null,
    "published": null,
    "title": "What happens when you swap cash for a card? #Shorts",
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   },
   {
    "file": "2026-11-20_5_v1.mp4",
@@ -301,7 +370,13 @@
    "videoId": null,
    "published": null,
    "title": "One sentence that makes you follow through #Shorts",
-   "checks": []
+   "checks": [
+    {
+     "at": "2026-11-20T21:25+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 16->20/11 vide (0 ligne). Aucun verdict."
+    }
+   ]
   }
  ]
 }
