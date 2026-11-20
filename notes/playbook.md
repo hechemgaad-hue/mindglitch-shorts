@@ -64,3 +64,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-20 (nuit) - Controle performance : 6e controle vide, aucun verdict
 - Metricool (videos published in range 01->20/11, memes metriques) renvoie 0 ligne : Shorts du 17/11 (>54 h) et du 18/11 non evaluables ; ceux du 19/11 (ids non remontes) non plus. Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (urgent) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; sans donnees, les regles 4 h/48 h ne peuvent pas etre appliquees.
+
+### 2026-11-20 (apres-midi) - Controle performance : 7e controle vide, aucun verdict
+- Metricool (videos published in range 16->20/11, memes metriques) renvoie 0 ligne : Shorts du 17, 18 et 19/11 non evaluables (echeance 48 h du 17/11 et du 18/11 matin depassee). Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
+- Action proprietaire : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation a faire manuellement sinon.
