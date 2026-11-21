@@ -23,13 +23,15 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 
 ## Backlog d'idées (par priorité)
 - [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
-- [ ] Emojis qui apparaissent minuscules au début d'une scène (ex. 🌍, 📈 à 1/6 de scène) : accélérer le pop ou démarrer à 60 % de taille
+- [x] Emojis qui apparaissent minuscules au début d'une scène : pop démarrant à 60 % de taille (fait 2026-11-21)
 - [ ] Fond animé qui occupe le bas (vagues/particules plus denses) pour renforcer le rythme visuel
 - [ ] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
 - [x] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres (fait 2026-11-20 ; reste ~20 % vide en bas, volontaire pour la zone d'interface Shorts)
 - [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
+- [ ] Sous-titres : éviter les coupes de phrase en fragments orphelins ("I?\"", "A", "IN A") en regroupant par unités de sens
+- [ ] Scènes à pair d'emojis générique (ex. 🔁❓ pour "switch", 🏫🌍 pour "schools") : dictionnaire de scènes plus précises
 - [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
 - [ ] Musique différente selon la palette (tonalité, tempo, instrumentation)
 - [ ] Mise en avant visuelle de la révélation (zoom plus fort, mot en grand plein écran)
@@ -62,3 +64,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Changé : make_short.py -> centre de scène 640 -> 780, emojis +15 %, barres liées au centre, grille décalée, sous-titres 66 % -> 72,5 % de la hauteur.
 - Test (scripts 2026-11-20_3, 2026-11-20_1, 2026-11-19_4, rendus /tmp, ancien vs nouveau) : 1080x1920, audio, durées identiques, volume identique (-13,5/-15,2/-14,5 dB). 6 images par vidéo : sous-titres entiers, barres, nombre "15 min" et emojis bien placés, rythme inchangé. Promu (make_short_stable.py = version précédente).
 - Note mise en page avant/après : 3 -> 4.
+
+### 2026-11-21 - Pop des emojis démarrant à 60 %
+- Constaté (10 vidéos des 20 et 21/11, 6 images chacune, volumedetect) : toutes 1080x1920 + audio, 18,2 à 24,2 s, volume moyen -13,5 à -15,2 dB, crête -1,1 à -1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : emojis minuscules ou réduits à un point au début de chaque scène (ex. 2026-11-20_2, microscope + document), paires d'emojis génériques (🔁❓, 🏫🌍), sous-titres découpés en fragments orphelins ("A", "I?\"", "IN A"), scènes à un seul emoji, bas d'écran encore vide (volontaire).
+- Notes moyennes (estimées) : lisibilité 4 ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> taille du pop = 60 % + 40 % de la courbe d'ease, décalage entre emojis 0,10 -> 0,05, durée 0,38 -> 0,25 de scène.
+- Test (scripts/2026-11-20_1 rendu dans /tmp, ancien vs nouveau) : 1080x1920, audio, 21,2 s, volume identique (-15,2 dB). Images de début de scène : plus d'emoji minuscule, les 3 emojis visibles dès 0,4 s ; sous-titres et rythme inchangés. Promu (make_short_stable.py = version précédente).
+- Note rythme/illustration au début de scène avant/après : 3 -> 4.

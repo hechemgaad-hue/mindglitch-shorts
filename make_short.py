@@ -237,7 +237,7 @@ def draw_visual(im, spec, lp, t, accent, fonts):
         for i, e in enumerate(ems):
             spr = emoji_img(e)
             base = size / max(spr.size)
-            pop = ease_out_back(clamp01((lp - 0.10 * i) / 0.38))
+            pop = 0.6 + 0.4 * ease_out_back(clamp01((lp - 0.05 * i) / 0.25))  # démarre à 60 % (plus de point minuscule)
             cy = CY + 18 * np.sin(t * 2.6 + i * 1.7) + (0 if n < 3 or i != 1 else -40)
             paste_c(im, spr, xs[i], cy, base * pop, angle=6 * np.sin(t * 2.0 + i))
     elif typ == "bars":
