@@ -76,3 +76,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-21 (nuit) - Controle performance : 9e controle vide, aucun verdict
 - Metricool (videos published in range 17->21/11, memes metriques) renvoie 0 ligne : Shorts du 17 au 20/11 non evaluables (echeances 4 h et 48 h depassees pour tous sauf ceux du 20/11 soir). Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (urgent, 9 controles consecutifs vides) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation manuelle sinon.
+
+### 2026-11-21 (apres-midi) - Controle performance : 10e controle vide, aucun verdict
+- Metricool (videos published in range, 01/10->21/11, metriques YTVP02/04/06/08/09/17) ne renvoie aucun Short MindGlitch (seulement 4 vieilles videos non liees, vues null). Shorts du 17 au 21/11 (matin/midi) non evaluables. Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
+- Action proprietaire (urgent, 10 controles consecutifs vides) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation manuelle sinon.
