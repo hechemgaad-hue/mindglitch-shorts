@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 0,
+ "voice": "af_bella",
+ "hook": "Three quiet reasons you like what you like.",
+ "facts": [
+  "One: Zajonc found that *repeated exposure* makes faces and symbols feel nicer.",
+  "Two: the *IKEA effect*. You value things more when you built them yourself.",
+  "Three: the *endowment effect*. In Kahneman's mug study, owners wanted *double* the price."
+ ],
+ "outro": "Familiar. Yours. Self-made. Notice them today.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔",
+    "❤️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔁",
+    "🙂"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪑",
+    "🔨"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Buyers",
+     3
+    ],
+    [
+     "Owners",
+     7
+    ]
+   ],
+   "unit": " $"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀",
+    "✨"
+   ]
+  }
+ ]
+}

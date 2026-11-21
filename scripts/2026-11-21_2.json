@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 1,
+ "voice": "bm_daniel",
+ "hook": "Quiz: how many people miss a walking gorilla?",
+ "facts": [
+  "Students counted basketball passes in a short video.",
+  "Mid-game, a person in a *gorilla suit* walked through and thumped its chest.",
+  "About *half* of the viewers never noticed it.",
+  "It's called *inattentional blindness*. Focus can make you blind to the obvious."
+ ],
+ "outro": "Did you guess right?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🦍",
+    "❓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏀",
+    "🔢"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🦍",
+    "🚶"
+   ]
+  },
+  {
+   "type": "grid",
+   "total": 20,
+   "on": 10,
+   "label": "Missed the gorilla"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎯",
+    "🙈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "✅"
+   ]
+  }
+ ]
+}

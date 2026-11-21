@@ -442,6 +442,61 @@
      "note": "Metricool videos published in range 17->21/11 vide (0 ligne). Aucun verdict."
     }
    ]
+  },
+  {
+   "file": "2026-11-21_1_v1.mp4",
+   "topic": "top 3: mere exposure, IKEA effect, endowment effect (mug study)",
+   "hook_type": "promesse/top 3",
+   "palette": 0,
+   "voice": "af_bella",
+   "format": "top3",
+   "scheduled": "2026-11-21 09:00 Europe/Paris",
+   "title": "3 Hidden Reasons You Like Things #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-21_2_v1.mp4",
+   "topic": "invisible gorilla (Simons & Chabris 1999) quiz",
+   "hook_type": "question/quiz",
+   "palette": 1,
+   "voice": "bm_daniel",
+   "format": "quiz",
+   "scheduled": "2026-11-21 12:00 Europe/Paris",
+   "title": "Would You Notice the Gorilla? #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-21_3_v1.mp4",
+   "topic": "choice overload jam study (Iyengar Lepper 2000)",
+   "hook_type": "que se passe-t-il si",
+   "palette": 2,
+   "voice": "am_eric",
+   "format": "whatif",
+   "scheduled": "2026-11-21 15:00 Europe/Paris",
+   "title": "Why Fewer Choices Can Sell More #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-21_4_v1.mp4",
+   "topic": "Bandura Bobo doll 1961",
+   "hook_type": "histoire/expérience",
+   "palette": 4,
+   "voice": "bf_emma",
+   "format": "story",
+   "scheduled": "2026-11-21 18:00 Europe/Paris",
+   "title": "The Doll Experiment That Changed Psychology #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-21_5_v1.mp4",
+   "topic": "self-distancing third-person self-talk (Kross 2014)",
+   "hook_type": "astuce/promesse",
+   "palette": 3,
+   "voice": "am_puck",
+   "format": "tip",
+   "scheduled": "2026-11-21 20:30 Europe/Paris",
+   "title": "Talk to Yourself Like This Before Big Moments #Shorts",
+   "checks": []
   }
  ]
 }

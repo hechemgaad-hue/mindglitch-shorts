@@ -1,0 +1,55 @@
+{
+ "title": "Psychology Facts",
+ "palette": 3,
+ "voice": "am_puck",
+ "hook": "Talk to yourself by name. Here's why.",
+ "facts": [
+  "Psychologist Ethan *Kross* studied how people self-talk before a stressful speech.",
+  "One group coached themselves in the *third person*, using their own *name*.",
+  "They felt *less anxious* and were rated as performing better.",
+  "Try it today: ask \"Why is *Sam* nervous?\" instead of \"Why am *I*?\""
+ ],
+ "outro": "Say your own name.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎤",
+    "😰"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧑",
+    "💬"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😌",
+    "⭐"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪞",
+    "💡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏷️"
+   ]
+  }
+ ]
+}

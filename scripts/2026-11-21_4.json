@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 4,
+ "voice": "bf_emma",
+ "hook": "Kids watched an adult punch a doll. Then this happened.",
+ "facts": [
+  "In 1961, Albert *Bandura* showed 72 nursery children a grown-up model.",
+  "Some saw the adult *attack* an inflatable Bobo doll. Others saw calm play.",
+  "Afterwards, the first group copied the *exact* punches, kicks and words.",
+  "Kids learn by *watching*, not just by being told."
+ ],
+ "outro": "Children copy what they see.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧸",
+    "👊"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 72,
+   "unit": "",
+   "label": "Children in the study"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧑",
+    "🥊"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👦",
+    "🦵"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👧",
+    "🪞"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 2,
+ "voice": "am_eric",
+ "hook": "What happens when you get 24 choices instead of 6?",
+ "facts": [
+  "In a famous 2000 jam study, shoppers saw either *24 jams* or *6*.",
+  "The big table drew more visitors. But far fewer *bought*.",
+  "About *3%* bought from 24 jams. About *30%* from 6.",
+  "Later studies found the effect is *smaller*, but too many options can still freeze us."
+ ],
+ "outro": "More choice. Less action.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🍓",
+    "🛒"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🍯",
+    "🍯",
+    "🍯"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚶",
+    "🚫"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "24 jams",
+     3
+    ],
+    [
+     "6 jams",
+     30
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🥶",
+    "🤷"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎛️"
+   ]
+  }
+ ]
+}
