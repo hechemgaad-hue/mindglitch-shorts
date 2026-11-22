@@ -592,6 +592,61 @@
    "scheduled": "2026-11-21 20:30 Europe/Paris",
    "title": "Talk to Yourself Like This Before Big Moments #Shorts",
    "checks": []
+  },
+  {
+   "file": "2026-11-22_1_v1.mp4",
+   "topic": "left-brain right-brain myth (Nielsen 2013)",
+   "hook_type": "affirmation surprenante",
+   "palette": 0,
+   "voice": "bm_george",
+   "format": "myth",
+   "scheduled": "2026-11-22 09:00 Europe/Paris",
+   "title": "Are You Really Left-Brained or Right-Brained? #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-22_2_v1.mp4",
+   "topic": "top 3: forer effect, halo effect, illusory truth",
+   "hook_type": "promesse top3",
+   "palette": 1,
+   "voice": "af_heart",
+   "format": "top3",
+   "scheduled": "2026-11-22 12:00 Europe/Paris",
+   "title": "3 Mental Tricks Your Brain Falls For Daily #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-22_3_v1.mp4",
+   "topic": "pratfall effect (Aronson 1966)",
+   "hook_type": "question/quiz",
+   "palette": 2,
+   "voice": "am_adam",
+   "format": "quiz",
+   "scheduled": "2026-11-22 15:00 Europe/Paris",
+   "title": "Quiz: Flawless or Clumsy, Who Wins Trust? #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-22_4_v1.mp4",
+   "topic": "cognitive dissonance $1 vs $20 (Festinger Carlsmith 1959)",
+   "hook_type": "histoire/expérience",
+   "palette": 3,
+   "voice": "am_michael",
+   "format": "story",
+   "scheduled": "2026-11-22 18:00 Europe/Paris",
+   "title": "Paid $1 to Lie, They Believed It #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-22_5_v1.mp4",
+   "topic": "watching eyes honesty box (Bateson 2006)",
+   "hook_type": "que se passe-t-il si",
+   "palette": 4,
+   "voice": "af_nicole",
+   "format": "whatif",
+   "scheduled": "2026-11-22 20:30 Europe/Paris",
+   "title": "What a Picture of Eyes Does to Your Honesty #Shorts",
+   "checks": []
   }
  ]
 }

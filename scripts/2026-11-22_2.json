@@ -1,0 +1,57 @@
+{
+ "title": "Psychology Facts",
+ "palette": 1,
+ "voice": "af_heart",
+ "hook": "3 tricks your brain falls for every day.",
+ "facts": [
+  "One: the *Forer effect*. Vague horoscopes feel written just for you.",
+  "In 1948, students rated one generic profile *4.26* out of 5.",
+  "Two: the *halo effect*. One good trait makes everything else look good.",
+  "Three: *repetition*. Hearing a claim again makes it feel truer."
+ ],
+ "outro": "Your brain loves shortcuts.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🎭"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔮",
+    "📜"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📊",
+    "⭐"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😇",
+    "✨"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔁",
+    "🗣️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🎯"
+   ]
+  }
+ ]
+}

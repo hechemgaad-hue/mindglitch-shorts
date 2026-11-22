@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 0,
+ "voice": "bm_george",
+ "hook": "You are not left-brained or right-brained.",
+ "facts": [
+  "Utah scientists scanned the brains of *1,011* people.",
+  "They searched each brain for a dominant left or right side.",
+  "They found *no* evidence of left-brain or right-brain types.",
+  "Both sides work *together* on almost every task."
+ ],
+ "outro": "Not left. Not right. Both.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "⚖️"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 1011,
+   "unit": "",
+   "label": "Brains scanned"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔍",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚫",
+    "🧩"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤝",
+    "⚡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "✨"
+   ]
+  }
+ ]
+}

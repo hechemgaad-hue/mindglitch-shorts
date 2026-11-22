@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 2,
+ "voice": "am_adam",
+ "hook": "Quiz: who's more likable, flawless or clumsy?",
+ "facts": [
+  "In 1966, Elliot *Aronson* played students a quiz-show tape.",
+  "One contestant answered *92%* of the questions correctly.",
+  "Then he spilled coffee, and students rated him *most likable*.",
+  "It's the *pratfall effect*: small flaws make skilled people relatable."
+ ],
+ "outro": "Clumsy won. Did you guess?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧐",
+    "☕"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📼",
+    "🎤"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 92,
+   "unit": "%",
+   "label": "Correct answers"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "☕",
+    "😅"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤝",
+    "😊"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏆",
+    "☕"
+   ]
+  }
+ ]
+}

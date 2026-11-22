@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 3,
+ "voice": "am_michael",
+ "hook": "Paid just $1 to lie, they believed it.",
+ "facts": [
+  "In 1959, Festinger and *Carlsmith* had students do a boring task.",
+  "Then they told the next student it was fun, for *$1* or *$20*.",
+  "The *$1* group later rated the task as more enjoyable.",
+  "That's *cognitive dissonance*: the mind rewrites opinions to fit actions."
+ ],
+ "outro": "Cheap lies change minds.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "💵",
+    "🤥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔩",
+    "😴"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Paid $1",
+     1
+    ],
+    [
+     "Paid $20",
+     20
+    ]
+   ],
+   "unit": ""
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😄",
+    "📈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🔄"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💬",
+    "🪞"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "title": "Psychology Facts",
+ "palette": 4,
+ "voice": "af_nicole",
+ "hook": "What happens when a picture of eyes watches you?",
+ "facts": [
+  "At Newcastle University, a coffee room used an *honesty box*.",
+  "Each week, researchers switched a poster: *flowers* or *watching eyes*.",
+  "With the eyes, people paid nearly *three times* more.",
+  "Feeling watched, even by a *picture*, makes us more honest."
+ ],
+ "outro": "Eyes on you. Honesty up.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "👁️",
+    "🖼️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "☕",
+    "📦"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🌸",
+    "👀"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💰",
+    "📈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🖼️",
+    "😇"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀",
+    "✨"
+   ]
+  }
+ ]
+}
