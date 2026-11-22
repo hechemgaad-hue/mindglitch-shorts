@@ -30,13 +30,15 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [x] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres (fait 2026-11-20 ; reste ~20 % vide en bas, volontaire pour la zone d'interface Shorts)
 - [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
-- [ ] Sous-titres : éviter les coupes de phrase en fragments orphelins ("I?\"", "A", "IN A") en regroupant par unités de sens
+- [x] Sous-titres : éviter les coupes de phrase en fragments orphelins en regroupant par unités de sens (fait 2026-11-22)
 - [ ] Scènes à pair d'emojis générique (ex. 🔁❓ pour "switch", 🏫🌍 pour "schools") : dictionnaire de scènes plus précises
 - [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
 - [ ] Musique différente selon la palette (tonalité, tempo, instrumentation)
 - [ ] Mise en avant visuelle de la révélation (zoom plus fort, mot en grand plein écran)
 - [ ] Scènes à un seul emoji (ex. "2006.") : ajouter une carte date/année plein écran ou un second visuel pertinent
 - [ ] Styles de sous-titres différents selon le format (quiz, top 3, mythe)
+- [ ] Bas d'écran (~30 % vide) : visuel secondaire animé (barre de progression de fait, mot-clé géant) sans empiéter sur la zone d'interface Shorts
+- [ ] Scènes à emojis statiques (un seul pop au début) : micro-mouvement continu (respiration, rotation lente) pendant toute la phrase
 - [ ] Image de couverture (miniature) soignée si la chaîne l'autorise (videoThumbnailUrl dans Metricool, nécessite une chaîne vérifiée)
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
 
@@ -72,3 +74,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Changé : make_short.py -> taille du pop = 60 % + 40 % de la courbe d'ease, décalage entre emojis 0,10 -> 0,05, durée 0,38 -> 0,25 de scène.
 - Test (scripts/2026-11-20_1 rendu dans /tmp, ancien vs nouveau) : 1080x1920, audio, 21,2 s, volume identique (-15,2 dB). Images de début de scène : plus d'emoji minuscule, les 3 emojis visibles dès 0,4 s ; sous-titres et rythme inchangés. Promu (make_short_stable.py = version précédente).
 - Note rythme/illustration au début de scène avant/après : 3 -> 4.
+
+### 2026-11-22 - Sous-titres regroupés par unités de sens
+- Constaté (vidéos des 21 et 22/11, 6 images chacune pour 5 d'entre elles, volumedetect) : toutes 1080x1920 + audio, 20,6 à 23,3 s, volume moyen -13,5 à -14,1 dB, crête -1,4/-1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : sous-titres finissant sur un mot-outil ("DOMINANT LEFT OR", "THEY FOUND NO", "THE BRAINS OF"), paires d'emojis génériques (🧠🔁 répété en 22_4, 🥶🤷), emojis statiques pendant la phrase, bas d'écran vide (~30 %). Nombres, jauges, barres OK.
+- Notes moyennes (estimées) : lisibilité 4 ; illustration 3 ; rythme 3,5 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> pages() : coupe après ponctuation puis découpage optimal (programmation dynamique) en pages de 1 à 3 mots, pénalisant les fins sur mot-outil, les pages d'un mot et les tailles déséquilibrées.
+- Test (scripts/2026-11-22_1, ancien vs nouveau, 8 images) : 1080x1920, audio aac, 20,65 s, -13,5 dB identiques ; fins sur mot-outil 4/8 -> 0/8, sous-titres entiers, rythme inchangé. Un 2e rendu (2026-11-22_2) a dépassé le délai de la session et n'a pas été comparé. Promu (make_short_stable.py = version précédente).
+- Limite : quelques pages commencent par un mot-outil ("OF 1,011 PEOPLE", "FOR A") ; acceptable. Note lisibilité avant/après : 4 -> 4,5.

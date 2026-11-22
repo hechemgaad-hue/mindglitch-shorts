@@ -118,16 +118,55 @@ def word_weights(words):
     return np.array(ws)
 
 
+FUNC = {"a","an","the","of","or","and","to","in","on","at","for","with","by","from","as","than","that","but","is","are","was","were","your","their","its","his","her","our","my","into","over","if","so","not","no"}
+
+
+def _chunk(idxs, words, per=3):
+    """Découpe optimale (programmation dynamique) : pages de 1 à per mots, pénalise
+    les fins sur mot-outil, les pages d'un mot et les tailles déséquilibrées."""
+    n = len(idxs)
+    if n <= per:
+        return [list(idxs)]
+    def cost(sz, a, bnd):
+        c = 0.0
+        last = words[idxs[a + sz - 1]][0].lower().strip(".,!?:;\"'")
+        if last in FUNC and a + sz < n:
+            c += 9
+        if sz == 1:
+            c += 7
+        c += abs(sz - 2.5) * 0.6
+        return c
+    best = [(1e9, None)] * (n + 1)
+    best[0] = (0.0, None)
+    for e in range(1, n + 1):
+        for sz in range(1, per + 1):
+            a = e - sz
+            if a < 0:
+                continue
+            c = best[a][0] + cost(sz, a, e)
+            if c < best[e][0]:
+                best[e] = (c, sz)
+    out, e = [], n
+    while e > 0:
+        sz = best[e][1]
+        out.append(list(idxs[e - sz:e]))
+        e -= sz
+    return out[::-1]
+
+
 def pages(words, per=3):
-    """Découpe en pages de ≤per mots, coupe aussi après ponctuation forte."""
-    out, cur = [], []
+    """Pages par unités de sens : coupe après ponctuation, puis équilibre."""
+    segs, cur = [], []
     for i, (w, hl) in enumerate(words):
         cur.append(i)
-        if len(cur) >= per or w.endswith((".", "!", "?", ",")):
-            out.append(cur)
+        if w.endswith((".", "!", "?", ",", ":", ";")):
+            segs.append(cur)
             cur = []
     if cur:
-        out.append(cur)
+        segs.append(cur)
+    out = []
+    for sg in segs:
+        out.extend(_chunk(sg, words, per))
     return out
 
 
