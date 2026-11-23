@@ -38,9 +38,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Scènes à un seul emoji (ex. "2006.") : ajouter une carte date/année plein écran ou un second visuel pertinent
 - [ ] Styles de sous-titres différents selon le format (quiz, top 3, mythe)
 - [ ] Bas d'écran (~30 % vide) : visuel secondaire animé (barre de progression de fait, mot-clé géant) sans empiéter sur la zone d'interface Shorts
-- [ ] Scènes à emojis statiques (un seul pop au début) : micro-mouvement continu (respiration, rotation lente) pendant toute la phrase
+- [x] Scènes à emojis statiques : micro-mouvement continu (respiration, dérive, rotation) pendant toute la phrase (fait 2026-11-23)
 - [ ] Image de couverture (miniature) soignée si la chaîne l'autorise (videoThumbnailUrl dans Metricool, nécessite une chaîne vérifiée)
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
+
+- [ ] Playbook/scripts : liste de paires d'emojis précises par concept (winners, save, Africa...) à intégrer dans la consigne d'écriture des scripts
 
 ## Journal des améliorations
 ### 2026-11-18 - Normalisation du volume + ducking de la musique
@@ -82,3 +84,12 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Changé : make_short.py -> pages() : coupe après ponctuation puis découpage optimal (programmation dynamique) en pages de 1 à 3 mots, pénalisant les fins sur mot-outil, les pages d'un mot et les tailles déséquilibrées.
 - Test (scripts/2026-11-22_1, ancien vs nouveau, 8 images) : 1080x1920, audio aac, 20,65 s, -13,5 dB identiques ; fins sur mot-outil 4/8 -> 0/8, sous-titres entiers, rythme inchangé. Un 2e rendu (2026-11-22_2) a dépassé le délai de la session et n'a pas été comparé. Promu (make_short_stable.py = version précédente).
 - Limite : quelques pages commencent par un mot-outil ("OF 1,011 PEOPLE", "FOR A") ; acceptable. Note lisibilité avant/après : 4 -> 4,5.
+
+### 2026-11-23 - Micro-mouvement continu des emojis
+- Constaté (vidéos des 22 et 23/11, 6 images pour 5 d'entre elles, volumedetect) : toutes 1080x1920 + audio, 19,5 à 31,9 s, volume moyen -13,5 à -15,4 dB, crête -1,3 à -1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : emojis quasi immobiles après le pop (bob de 18 px, 6°), paires génériques choisies dans les scripts (✈️🔍 pour "the winners", 🖼️🧮 pour "save 200", 🌍🏛️ pour "African countries", 🆕✨ pour "the fresh"), bas d'écran vide (~25 %). Sous-titres entiers, barres OK.
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 3,5 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> emojis : bob 34 px, dérive horizontale, respiration +-5 % avec zoom progressif +6 %, rotation +-10 deg.
+- Test (scripts/2026-11-23_3, ancien vs nouveau, 6 images) : 1080x1920, audio, 21,1 s, -13,6 dB identiques ; emojis plus grands/inclinés, sous-titres et barres entiers, aucune coupure. Mesure de mouvement automatique non aboutie : jugement visuel uniquement. Promu (make_short_stable.py = version précédente).
+- Note rythme visuel avant/après : 3,5 -> 4 (estimé).
+- Nouvelles idées : guide de choix d'emojis précis pour les rédacteurs de scripts (éviter les paires génériques) ; visuel secondaire dans le bas d'écran.
