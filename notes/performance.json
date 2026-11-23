@@ -887,6 +887,61 @@
      "note": "Metricool videos published in range 18->22/11 vide (0 ligne). Aucun verdict."
     }
    ]
+  },
+  {
+   "file": "2026-11-23_1_v1.mp4",
+   "topic": "fresh start effect (Dai Milkman Riis 2014)",
+   "hook_type": "promesse",
+   "palette": 0,
+   "voice": "af_bella",
+   "format": "tip",
+   "scheduled": "2026-11-23 09:00 Europe/Paris",
+   "title": "The Best Day to Start a Goal #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-23_2_v1.mp4",
+   "topic": "mozart effect myth (Rauscher 1993)",
+   "hook_type": "affirmation surprenante",
+   "palette": 1,
+   "voice": "bm_george",
+   "format": "myth",
+   "scheduled": "2026-11-23 12:00 Europe/Paris",
+   "title": "Mozart Doesn't Make You Smarter. Here's Why #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-23_3_v1.mp4",
+   "topic": "anchoring wheel of fortune quiz (Tversky Kahneman 1974)",
+   "hook_type": "question/quiz",
+   "palette": 2,
+   "voice": "am_eric",
+   "format": "quiz",
+   "scheduled": "2026-11-23 15:00 Europe/Paris",
+   "title": "Quiz: Can a Random Number Change Your Guess? #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-23_4_v1.mp4",
+   "topic": "milgram obedience (1961)",
+   "hook_type": "histoire/expérience",
+   "palette": 3,
+   "voice": "bm_daniel",
+   "format": "story",
+   "scheduled": "2026-11-23 18:00 Europe/Paris",
+   "title": "He Told Strangers to Shock Someone. 65% Obeyed #Shorts",
+   "checks": []
+  },
+  {
+   "file": "2026-11-23_5_v1.mp4",
+   "topic": "top 3: availability, survivorship, framing",
+   "hook_type": "promesse",
+   "palette": 4,
+   "voice": "af_nicole",
+   "format": "top3",
+   "scheduled": "2026-11-23 20:30 Europe/Paris",
+   "title": "3 Mental Shortcuts Secretly Running Your Decisions #Shorts",
+   "checks": []
   }
  ]
 }
