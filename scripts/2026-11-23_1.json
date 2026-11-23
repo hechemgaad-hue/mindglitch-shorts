@@ -1,0 +1,56 @@
+{
+ "title": "Psychology Facts",
+ "palette": 0,
+ "voice": "af_bella",
+ "hook": "Want better odds with your goals? Pick this day.",
+ "facts": [
+  "In 2014, researchers tracked *gym visits* and diet searches.",
+  "They jumped on Mondays, new months and new semesters.",
+  "Researchers call it the *fresh start effect*: a new date feels like a *clean slate*.",
+  "So pick a date that feels like a *new chapter*, then start small."
+ ],
+ "outro": "Which day will you pick?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📅",
+    "🎯"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏋️",
+    "📈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗓️",
+    "🚀"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🆕",
+    "✨"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝",
+    "🌱"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔"
+   ]
+  }
+ ]
+}

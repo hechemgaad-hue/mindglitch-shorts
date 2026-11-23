@@ -1,0 +1,55 @@
+{
+ "title": "Psychology Facts",
+ "palette": 1,
+ "voice": "bm_george",
+ "hook": "Mozart doesn't make you smarter. Here's the truth.",
+ "facts": [
+  "In 1993, researchers had 36 students listen to *Mozart*.",
+  "Their spatial reasoning improved for only *10 to 15 minutes*.",
+  "A *Stephen King* story later gave a similar boost.",
+  "Later reviews found *no real boost* to general intelligence."
+ ],
+ "outro": "Mozart is lovely. Smarter? No.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎻",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎓",
+    "📝"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 15,
+   "unit": " min",
+   "label": "Boost lasted up to"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "👻"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "❌",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎶"
+   ]
+  }
+ ]
+}

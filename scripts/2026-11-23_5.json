@@ -1,0 +1,63 @@
+{
+ "title": "Psychology Facts",
+ "palette": 4,
+ "voice": "af_nicole",
+ "hook": "3 mental shortcuts quietly running your decisions.",
+ "facts": [
+  "One: the *availability heuristic*. Vivid events feel more common.",
+  "Two: *survivorship bias*. We study the winners and ignore the rest.",
+  "Three: *framing*. \"Save 200 for sure\" won *72%* of votes.",
+  "Reworded as \"400 will die\", that sure option fell to *22%*."
+ ],
+ "outro": "Which one fooled you today?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "⚡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📺",
+    "😱"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "✈️",
+    "🔍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🖼️",
+    "🧮"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Save 200",
+     72
+    ],
+    [
+     "400 die",
+     22
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧩"
+   ]
+  }
+ ]
+}

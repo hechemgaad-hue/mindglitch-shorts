@@ -1,0 +1,54 @@
+{
+ "title": "Psychology Facts",
+ "palette": 3,
+ "voice": "bm_daniel",
+ "hook": "He asked strangers to shock someone. Most obeyed.",
+ "facts": [
+  "In 1961, at *Yale*, Stanley Milgram recruited ordinary volunteers.",
+  "They were told to deliver *shocks*. The shocks were *fake*.",
+  "Each wrong answer meant a stronger shock, up to *450 volts*.",
+  "Result: *65%* of volunteers went all the way to the top."
+ ],
+ "outro": "Ordinary people. Most obeyed.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "😮",
+    "🧑‍🔬"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏛️",
+    "🥼"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⚡",
+    "🎭"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 450,
+   "unit": "V",
+   "label": "Maximum shock"
+  },
+  {
+   "type": "grid",
+   "total": 20,
+   "on": 13,
+   "label": "Went all the way"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤯"
+   ]
+  }
+ ]
+}

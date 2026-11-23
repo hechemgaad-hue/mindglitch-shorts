@@ -1,0 +1,64 @@
+{
+ "title": "Psychology Facts",
+ "palette": 2,
+ "voice": "am_eric",
+ "hook": "Quiz: can a random number change your guess?",
+ "facts": [
+  "In 1974, Tversky and *Kahneman* spun a rigged wheel of fortune.",
+  "It landed on *10* for some people, and *65* for others.",
+  "Then they asked: what percent of UN members are *African* countries?",
+  "Wheel said 10, median guess *25%*. Wheel said 65, guess *45%*."
+ ],
+ "outro": "A random number anchored them. Did you guess?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎲",
+    "🤔"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎡",
+    "🎲"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔢",
+    "🎯"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🌍",
+    "🏛️"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Wheel: 10",
+     25
+    ],
+    [
+     "Wheel: 65",
+     45
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧲",
+    "😮"
+   ]
+  }
+ ]
+}
