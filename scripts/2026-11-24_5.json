@@ -1,0 +1,56 @@
+{
+ "palette": 2,
+ "voice": "am_eric",
+ "hook": "Make a boring habit feel like a treat.",
+ "facts": [
+  "Pick something you *love*, like a podcast or an audiobook.",
+  "Allow yourself to enjoy it *only* while doing the boring task.",
+  "Researchers Milkman, Minson and Volpp called this *temptation bundling* in 2014.",
+  "In their gym study, the *audiobook group* visited more often."
+ ],
+ "outro": "What will you bundle first?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎁",
+    "😴"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎧",
+    "📖"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔗",
+    "⏳"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏋️",
+    "🎧"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📈",
+    "🏆"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

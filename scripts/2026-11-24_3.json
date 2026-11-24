@@ -1,0 +1,60 @@
+{
+ "palette": 4,
+ "voice": "am_michael",
+ "hook": "3 memory quirks that shape what you remember.",
+ "facts": [
+  "Number one: the *peak-end rule*. You judge by the best moment and the end.",
+  "Number two: the *serial position effect*. You recall the first and last items best.",
+  "Number three: the *von Restorff effect*. The odd one out sticks in memory.",
+  "So end strong, and make *one thing* stand out."
+ ],
+ "outro": "Remember the quirks, remember the ending.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "3️⃣"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎢",
+    "🏁"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📋",
+    "🥇",
+    "🏁"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🍎",
+    "🍎",
+    "🍌",
+    "🍎"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎬",
+    "⭐"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔁",
+    "🧠"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

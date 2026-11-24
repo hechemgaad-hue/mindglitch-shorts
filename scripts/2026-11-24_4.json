@@ -1,0 +1,57 @@
+{
+ "palette": 0,
+ "voice": "af_nicole",
+ "hook": "Say any word 30 times. Something strange happens.",
+ "facts": [
+  "Say *'door'* out loud again and again.",
+  "Soon it stops sounding like a word. It becomes odd *noise*.",
+  "It's called *semantic satiation*, and researchers have studied it since the *1900s*.",
+  "Your brain briefly tires of the word's *meaning*, not the sound."
+ ],
+ "outro": "Try it. Say it thirty times.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "🔁"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🔊"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤯",
+    "❓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📜",
+    "🔬"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "😵‍💫"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🔁"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

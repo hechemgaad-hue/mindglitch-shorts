@@ -1,0 +1,56 @@
+{
+ "palette": 3,
+ "voice": "af_heart",
+ "hook": "Quiz: which is more likely? Most people get it wrong.",
+ "facts": [
+  "Linda is 31, outspoken, and studied *philosophy*.",
+  "Is she a bank teller, or a *feminist* bank teller?",
+  "In 1983, roughly *85%* of students chose the feminist bank teller.",
+  "But one group inside another can never be *bigger*. That's the *conjunction fallacy*."
+ ],
+ "outro": "Which did you pick, quiz taker?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "❓",
+    "⚖️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👩",
+    "📚"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏦",
+    "🤔"
+   ]
+  },
+  {
+   "type": "grid",
+   "total": 20,
+   "on": 17,
+   "label": "chose the wrong one"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⭕",
+    "🔵",
+    "📉"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😅"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

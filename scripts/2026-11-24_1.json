@@ -1,0 +1,55 @@
+{
+ "palette": 1,
+ "voice": "bm_george",
+ "hook": "Smoke filled the room. Nobody moved.",
+ "facts": [
+  "In 1968, *Latané and Darley* piped smoke into a waiting room.",
+  "Alone, *75%* of people reported it within minutes.",
+  "With two calm actors beside them, only *10%* did.",
+  "Nobody panicked. They just copied the *calm* people around them."
+ ],
+ "outro": "Smoke filled the room. Would you move?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🌫️",
+    "🚪"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏢",
+    "💨"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 75,
+   "unit": "%",
+   "label": "reported it alone"
+  },
+  {
+   "type": "number",
+   "value": 10,
+   "unit": "%",
+   "label": "with calm actors"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😐",
+    "👀",
+    "🧍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

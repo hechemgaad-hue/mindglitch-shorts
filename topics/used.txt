@@ -31,3 +31,8 @@ mozart effect myth (Rauscher 1993, Nantais Schellenberg 1999)
 anchoring wheel of fortune quiz (Tversky Kahneman 1974)
 milgram obedience (1961)
 top 3: availability heuristic, survivorship bias, framing (Tversky Kahneman 1981)
+bystander smoke-filled room (Latané Darley 1968)
+linda problem conjunction fallacy quiz (Tversky Kahneman 1983)
+top 3: peak-end rule, serial position, von Restorff
+semantic satiation (say a word 30 times)
+temptation bundling (Milkman Minson Volpp 2014)
