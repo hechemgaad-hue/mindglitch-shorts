@@ -25,7 +25,7 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
 - [x] Emojis qui apparaissent minuscules au début d'une scène : pop démarrant à 60 % de taille (fait 2026-11-21)
 - [ ] Fond animé qui occupe le bas (vagues/particules plus denses) pour renforcer le rythme visuel
-- [ ] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash
+- [x] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash (fait 2026-11-24)
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
 - [x] Occuper le tiers inférieur vide : recentrer verticalement emoji + sous-titres (fait 2026-11-20 ; reste ~20 % vide en bas, volontaire pour la zone d'interface Shorts)
 - [ ] Scènes composées (plusieurs emojis dessinant une situation) au lieu de paires génériques
@@ -93,3 +93,12 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Test (scripts/2026-11-23_3, ancien vs nouveau, 6 images) : 1080x1920, audio, 21,1 s, -13,6 dB identiques ; emojis plus grands/inclinés, sous-titres et barres entiers, aucune coupure. Mesure de mouvement automatique non aboutie : jugement visuel uniquement. Promu (make_short_stable.py = version précédente).
 - Note rythme visuel avant/après : 3,5 -> 4 (estimé).
 - Nouvelles idées : guide de choix d'emojis précis pour les rédacteurs de scripts (éviter les paires génériques) ; visuel secondaire dans le bas d'écran.
+
+### 2026-11-24 - Transitions variées entre scènes
+- Constaté (10 vidéos des 23 et 24/11, 6 images chacune, volumedetect) : toutes 1080x1920 + audio, 18,6 à 31,9 s, volume moyen -13,5 à -14,6 dB, crête -1,2 à -1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : un seul type de transition (flash blanc), paires d'emojis génériques (🎢🏁, ✈️🔍, 🖼️🧮, 🗣️🔁), sous-titres entiers, bas d'écran vide (~25 %).
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 3,5 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> transition() : selon l'indice de scène, flash, glissement horizontal, zoom traversant ou glitch RGB (0,22 s) appliqués au visuel, avant les sous-titres (qui restent intacts).
+- Test (scripts/2026-11-24_1, ancien vs nouveau, 12 images aux débuts de scène + rendu complet) : 1080x1920, audio, 22,85 s, -13,5 dB identiques ; sous-titres entiers, rythme visuel plus varié. Défaut mineur : le glissement laisse voir ~1 image d'un liseré de l'autre bord (roll). Promu (make_short_stable.py = version précédente).
+- Note rythme avant/après : 3,5 -> 4 (estimé).
+- Nouvelles idées : glissement sans liseré (remplissage du fond) ; compteur/jauge visuelle secondaire dans le bas d'écran.

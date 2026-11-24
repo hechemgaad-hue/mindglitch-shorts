@@ -277,8 +277,10 @@ def draw_visual(im, spec, lp, t, accent, fonts):
             spr = emoji_img(e)
             base = size / max(spr.size)
             pop = 0.6 + 0.4 * ease_out_back(clamp01((lp - 0.05 * i) / 0.25))  # démarre à 60 % (plus de point minuscule)
-            cy = CY + 18 * np.sin(t * 2.6 + i * 1.7) + (0 if n < 3 or i != 1 else -40)
-            paste_c(im, spr, xs[i], cy, base * pop, angle=6 * np.sin(t * 2.0 + i))
+            cy = CY + 34 * np.sin(t * 2.4 + i * 1.9) + (0 if n < 3 or i != 1 else -40)
+            cx = xs[i] + 14 * np.cos(t * 1.7 + i * 2.3) + (xs[i] - W / 2) * 0.06 * lp  # dérive lente vers l'extérieur
+            breathe = 1.0 + 0.05 * np.sin(t * 3.1 + i * 1.3) + 0.06 * lp  # respiration + léger zoom progressif
+            paste_c(im, spr, cx, cy, base * pop * breathe, angle=10 * np.sin(t * 1.9 + i * 1.1))
     elif typ == "bars":
         items = spec["items"]
         unit = spec.get("unit", "")
