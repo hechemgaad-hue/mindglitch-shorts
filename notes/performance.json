@@ -1087,6 +1087,56 @@
      "note": "Metricool videos published in range vide (0 ligne MindGlitch). Aucun verdict."
     }
    ]
+  },
+  {
+   "file": "2026-11-24_1_v1.mp4",
+   "topic": "bystander smoke room",
+   "hook_type": "mystère/affirmation",
+   "palette": 1,
+   "voice": "bm_george",
+   "format": "experience",
+   "scheduled": "2026-11-24 09:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-24_2_v1.mp4",
+   "topic": "linda problem quiz",
+   "hook_type": "quiz",
+   "palette": 3,
+   "voice": "af_heart",
+   "format": "quiz",
+   "scheduled": "2026-11-24 12:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-24_3_v1.mp4",
+   "topic": "top 3 memory quirks",
+   "hook_type": "liste/promesse",
+   "palette": 4,
+   "voice": "am_michael",
+   "format": "top3",
+   "scheduled": "2026-11-24 15:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-24_4_v1.mp4",
+   "topic": "semantic satiation",
+   "hook_type": "défi/curiosité",
+   "palette": 0,
+   "voice": "af_nicole",
+   "format": "what_if",
+   "scheduled": "2026-11-24 18:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-24_5_v1.mp4",
+   "topic": "temptation bundling",
+   "hook_type": "promesse",
+   "palette": 2,
+   "voice": "am_eric",
+   "format": "tip",
+   "scheduled": "2026-11-24 20:30 Europe/Paris",
+   "checks": []
   }
  ]
 }
