@@ -108,3 +108,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-23 (soir) - Controle performance : 17e controle vide, aucun verdict
 - Metricool (videos published in range 19->23/11, metriques YTVP02/04/17/06/07/08/09/11/12) renvoie 0 ligne : Shorts du 17 au 23/11 non evaluables. Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (urgent, 17 controles consecutifs vides, >6 jours) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation manuelle sinon.
+
+### 2026-11-24 (nuit) - Controle performance : 18e controle vide, aucun verdict
+- Metricool (videos published in range 20->24/11 et 01->24/11, metriques YTVP02/04/17/06/07/08/09/11/12) renvoie 0 ligne : Shorts du 17 au 23/11 non evaluables (>7 jours pour les premiers). Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
+- Action proprietaire (urgent, 18 controles consecutifs vides) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation manuelle sinon.
