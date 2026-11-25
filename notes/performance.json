@@ -1455,7 +1455,7 @@
    "palette": 2,
    "voice": "bm_lewis",
    "format": "myth",
-   "scheduled": "2026-11-25 12:00 Europe/Paris",
+   "scheduled": "2026-11-25 09:00 Europe/Paris",
    "checks": []
   },
   {
@@ -1465,7 +1465,7 @@
    "palette": 0,
    "voice": "af_bella",
    "format": "experience",
-   "scheduled": "2026-11-25 15:00 Europe/Paris",
+   "scheduled": "2026-11-25 12:00 Europe/Paris",
    "checks": []
   },
   {
@@ -1475,7 +1475,7 @@
    "palette": 4,
    "voice": "am_adam",
    "format": "what_if",
-   "scheduled": "2026-11-25 18:00 Europe/Paris",
+   "scheduled": "2026-11-25 15:00 Europe/Paris",
    "checks": []
   },
   {
@@ -1485,7 +1485,7 @@
    "palette": 1,
    "voice": "bf_emma",
    "format": "top3",
-   "scheduled": "2026-11-25 20:30 Europe/Paris",
+   "scheduled": "2026-11-25 18:00 Europe/Paris",
    "checks": []
   },
   {
@@ -1495,7 +1495,7 @@
    "palette": 3,
    "voice": "am_michael",
    "format": "tip",
-   "scheduled": "2026-11-26 09:00 Europe/Paris",
+   "scheduled": "2026-11-25 20:30 Europe/Paris",
    "checks": []
   }
  ]
