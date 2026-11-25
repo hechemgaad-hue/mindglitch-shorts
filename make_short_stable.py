@@ -338,10 +338,40 @@ def draw_visual(im, spec, lp, t, accent, fonts):
             f_lab = fonts.setdefault("nl", ImageFont.truetype(FONT, 58))
             d.text((W / 2, CY + 230), spec["label"].upper(), font=f_lab, fill=(255, 255, 255), anchor="mm",
                    stroke_width=5, stroke_fill=(10, 10, 20))
-    # flash de transition
-    if lp < 0.12:
+    # flash de transition (seulement pour le style 0 ; les autres via transition())
+    if lp < 0.12 and spec.get("_style", 0) == 0:
         a = int(90 * (1 - lp / 0.12))
         ImageDraw.Draw(im, "RGBA").rectangle((0, 0, W, H), fill=(255, 255, 255, a))
+
+
+def transition(im, si, lp):
+    """Transitions variées au début de chaque scène (0 flash, 1 glissement, 2 zoom traversant, 3 glitch RGB)."""
+    dur = 0.22
+    if si == 0 or lp >= dur:
+        return im
+    k = lp / dur
+    e = 1 - (1 - k) ** 3
+    style = si % 4
+    if style == 1:
+        dx = int((1 - e) * W * (0.55 if si % 8 == 1 else -0.55))
+        a = np.roll(np.asarray(im), dx, axis=1)
+        return Image.fromarray(a)
+    if style == 2:
+        sc = 1.0 + 0.22 * (1 - e)
+        cw, ch = W / sc, H / sc
+        box = ((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2)
+        return im.resize((W, H), Image.BILINEAR, box=box)
+    if style == 3:
+        a = np.asarray(im).copy()
+        sh = int(40 * (1 - e))
+        a[:, :, 0] = np.roll(a[:, :, 0], sh, axis=1)
+        a[:, :, 2] = np.roll(a[:, :, 2], -sh, axis=1)
+        rng = np.random.default_rng(si * 100 + int(lp * 60))
+        for _ in range(5):
+            y = int(rng.integers(0, H - 80)); hh = int(rng.integers(20, 80))
+            a[y:y + hh] = np.roll(a[y:y + hh], int(rng.integers(-60, 60) * (1 - e)), axis=1)
+        return Image.fromarray(a)
+    return im
 
 
 def pick_size(words, page):
@@ -473,7 +503,9 @@ def main(script_path, out):
         d.rounded_rectangle((80, 135, 80 + int((W - 160) * t / total), 143), 4, fill=accent + (255,))
         d.text((W // 2, 100), "MINDGLITCH", font=f_title, fill=(255, 255, 255, 190), anchor="mm")
         spec = visuals[si] if si < len(visuals) and visuals[si] else {"type": "emoji", "emojis": [DEFAULT_EMOJIS[si % len(DEFAULT_EMOJIS)]]}
+        spec = dict(spec, _style=si % 4 if si > 0 else 0)
         draw_visual(im, spec, local, t, accent, vis_fonts)
+        im = transition(im, si, local)
         d = ImageDraw.Draw(im, "RGBA")
         # page de sous-titres courante
         words, edges = sg["words"], sg["edges"]

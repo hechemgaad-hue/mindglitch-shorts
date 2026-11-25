@@ -37,7 +37,7 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Mise en avant visuelle de la révélation (zoom plus fort, mot en grand plein écran)
 - [ ] Scènes à un seul emoji (ex. "2006.") : ajouter une carte date/année plein écran ou un second visuel pertinent
 - [ ] Styles de sous-titres différents selon le format (quiz, top 3, mythe)
-- [ ] Bas d'écran (~30 % vide) : visuel secondaire animé (barre de progression de fait, mot-clé géant) sans empiéter sur la zone d'interface Shorts
+- [x] Bas d'écran (~30 % vide) : égaliseur animé réactif à la voix (fait 2026-11-25) ; reste possible : mot-clé géant / compteur
 - [x] Scènes à emojis statiques : micro-mouvement continu (respiration, dérive, rotation) pendant toute la phrase (fait 2026-11-23)
 - [ ] Image de couverture (miniature) soignée si la chaîne l'autorise (videoThumbnailUrl dans Metricool, nécessite une chaîne vérifiée)
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
@@ -102,3 +102,13 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Test (scripts/2026-11-24_1, ancien vs nouveau, 12 images aux débuts de scène + rendu complet) : 1080x1920, audio, 22,85 s, -13,5 dB identiques ; sous-titres entiers, rythme visuel plus varié. Défaut mineur : le glissement laisse voir ~1 image d'un liseré de l'autre bord (roll). Promu (make_short_stable.py = version précédente).
 - Note rythme avant/après : 3,5 -> 4 (estimé).
 - Nouvelles idées : glissement sans liseré (remplissage du fond) ; compteur/jauge visuelle secondaire dans le bas d'écran.
+
+### 2026-11-25 - Égaliseur réactif à la voix dans le bas d'écran
+- Constaté (10 vidéos des 24 et 25/11, 6 images chacune en planche, volumedetect pour toutes) : toutes 1080x1920 + audio, 18,6 à 28,1 s, volume moyen -13,5 à -15,2 dB, crête -1,2 à -1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : bas d'écran vide (~30 %) sous les sous-titres, paires d'emojis génériques (🧠🏷️ répété, 🪙🤷, 🚪🔁), fond peu dynamique en bas. Sous-titres entiers, barres/jauges OK, transitions variées OK.
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> 31 barres arrondies (couleur d'accent) à y=1595, hauteur pilotée par le niveau RMS de la voix (réactif, avec ondulation par barre).
+- Test (scripts/2026-11-25_1, ancien vs nouveau, 8 images + ffprobe) : 1080x1920, audio, 22,12 s, -14,5 dB identiques ; égaliseur visible et animé (plat entre les phrases, large quand la voix parle), sous-titres et emojis inchangés, aucune régression. Promu (make_short_stable.py = version précédente).
+- Réserve : l'égaliseur (83 % de la hauteur) peut être légèrement recouvert par l'interface Shorts (titre/boutons) ; à surveiller, remonter à ~80 % si gênant.
+- Note rythme/dynamisme du bas avant/après : 3 -> 4 (estimé).
+- Nouvelles idées : dictionnaire d'emojis précis par concept (🧠🏷️ générique) ; mot-clé géant en filigrane derrière la révélation.
