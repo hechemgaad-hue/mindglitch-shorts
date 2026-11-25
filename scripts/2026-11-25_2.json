@@ -1,0 +1,64 @@
+{
+ "palette": 0,
+ "voice": "af_bella",
+ "hook": "The less you know, the more you think you know.",
+ "facts": [
+  "In *1999*, Kruger and Dunning tested students on logic and grammar.",
+  "The lowest scorers ranked themselves around the *62nd* percentile.",
+  "Their real rank was near the *12th* percentile.",
+  "Skill and *self-awareness* often grow together."
+ ],
+ "outro": "The less you know, the more you think you know.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🎓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝",
+    "🧑‍🎓"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Thought",
+     62
+    ],
+    [
+     "Real",
+     12
+    ]
+   ],
+   "unit": ""
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📉",
+    "🙈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🌱",
+    "🔍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🎓"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

@@ -1,0 +1,55 @@
+{
+ "palette": 3,
+ "voice": "am_michael",
+ "hook": "One word makes people say yes.",
+ "facts": [
+  "In *1978*, Ellen Langer tested line-cutters at a copy machine.",
+  "Just asking to cut in worked *60%* of the time.",
+  "Adding 'because I'm in a rush' raised it to *94%*.",
+  "Even a weak reason, 'because I need copies', got *93%*."
+ ],
+ "outro": "One word makes people say yes.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "✅"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🖨️",
+    "🧍"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 60,
+   "unit": "%",
+   "label": "said yes to a plain ask"
+  },
+  {
+   "type": "number",
+   "value": 94,
+   "unit": "%",
+   "label": "said yes with a reason"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💬",
+    "🤝"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "✅"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

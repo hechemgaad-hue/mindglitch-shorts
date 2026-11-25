@@ -36,3 +36,8 @@ linda problem conjunction fallacy quiz (Tversky Kahneman 1983)
 top 3: peak-end rule, serial position, von Restorff
 semantic satiation (say a word 30 times)
 temptation bundling (Milkman Minson Volpp 2014)
+lie detection accuracy 54% (Bond DePaulo 2006)
+dunning-kruger (Kruger Dunning 1999)
+affect labeling (Lieberman 2007)
+top 3: default effect, planning fallacy, loss aversion
+because copy machine (Langer 1978)

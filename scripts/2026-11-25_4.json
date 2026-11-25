@@ -1,0 +1,71 @@
+{
+ "palette": 1,
+ "voice": "bf_emma",
+ "hook": "3 biases that quietly run your decisions.",
+ "facts": [
+  "Number one: the *default effect*. Austria's organ donor rate: *99.98%*. Germany's: *12%*.",
+  "The only difference? Opt out versus *opt in*.",
+  "Number two: the *planning fallacy*. Students guessed *34* days for a thesis. It took *56*.",
+  "Number three: *loss aversion*. Losing hurts about *twice* as much as winning feels good."
+ ],
+ "outro": "Three biases. One quiet driver.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "3️⃣"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Austria",
+     99.98
+    ],
+    [
+     "Germany",
+     12
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "☑️",
+    "✅"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Guessed",
+     34
+    ],
+    [
+     "Actual",
+     56
+    ]
+   ],
+   "unit": " days"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⚖️",
+    "💔"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚗",
+    "🧠"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

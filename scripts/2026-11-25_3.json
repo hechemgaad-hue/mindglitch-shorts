@@ -1,0 +1,58 @@
+{
+ "palette": 4,
+ "voice": "am_adam",
+ "hook": "Name your feeling. Watch what your brain does.",
+ "facts": [
+  "In *2007*, UCLA researchers scanned people viewing upsetting faces.",
+  "When people *named* the emotion, the amygdala responded less.",
+  "Writing 'angry' or 'afraid' seemed to *dial down* the alarm.",
+  "Researchers call this *affect labeling*."
+ ],
+ "outro": "Name your feeling. Watch what your brain does.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🏷️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "😠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "📉"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "✍️",
+    "😨",
+    "🔕"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏷️",
+    "💭"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "🏷️"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

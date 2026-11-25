@@ -1,0 +1,64 @@
+{
+ "palette": 2,
+ "voice": "bm_lewis",
+ "hook": "Can you spot a liar? Probably not.",
+ "facts": [
+  "Most people think liars *look away*. Research says that cue is weak.",
+  "In a famous 2006 review, people spotted lies *54%* of the time.",
+  "Pure guessing would score *50%*. So we barely beat a coin flip.",
+  "Feeling *confident* doesn't make you accurate."
+ ],
+ "outro": "Can you spot a liar? Probably not.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🕵️",
+    "❓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀",
+    "🙈"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Guessing",
+     50
+    ],
+    [
+     "People",
+     54
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪙",
+    "🤷"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😎",
+    "📉"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🕵️",
+    "🪙"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}
