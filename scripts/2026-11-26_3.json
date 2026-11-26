@@ -1,0 +1,61 @@
+{
+ "palette": 2,
+ "voice": "am_michael",
+ "hook": "A coin lands heads five times. What's next?",
+ "facts": [
+  "Most people say tails is *due*.",
+  "But a coin has *no memory*.",
+  "In *1913*, a Monte Carlo roulette wheel hit black *26* times in a row.",
+  "Many gamblers lost *fortunes* betting on red. That's the *gambler's fallacy*."
+ ],
+ "outro": "Five heads? Next flip is still *fifty-fifty*.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪙"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔",
+    "📉"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Heads",
+     50
+    ],
+    [
+     "Tails",
+     50
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "number",
+   "value": 26,
+   "unit": "",
+   "label": "Blacks in a row"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💸",
+    "🎰"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 50,
+   "unit": "%",
+   "label": "Next flip"
+  }
+ ],
+ "title": "Psychology Facts"
+}

@@ -41,3 +41,8 @@ dunning-kruger (Kruger Dunning 1999)
 affect labeling (Lieberman 2007)
 top 3: default effect, planning fallacy, loss aversion
 because copy machine (Langer 1978)
+group brainstorming myth (Osborn 1953, Diehl Stroebe 1987)
+top 3: reciprocity (Regan 1971), scarcity (Worchel cookies), social proof (hotel towels)
+gambler's fallacy coin quiz (Monte Carlo 1913)
+robbers cave experiment (Sherif 1954)
+why your recorded voice sounds weird (bone conduction)

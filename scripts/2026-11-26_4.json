@@ -1,0 +1,55 @@
+{
+ "palette": 4,
+ "voice": "bf_emma",
+ "hook": "Strangers became enemies in one week. Here's how.",
+ "facts": [
+  "In *1954*, Muzafer Sherif took *22* boys to a camp in Oklahoma.",
+  "He split them into two teams and made them compete for prizes.",
+  "Within days, the teams were name-calling and *raiding* each other's cabins.",
+  "Then came shared problems, like a broken water supply. Teamwork *melted* the hostility."
+ ],
+ "outro": "Enemies made. Then friends again.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧑‍🤝‍🧑",
+    "⚔️"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 22,
+   "unit": "",
+   "label": "Boys at camp"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏆",
+    "🏕️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😡",
+    "🏚️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚰",
+    "🤝"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🕊️"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

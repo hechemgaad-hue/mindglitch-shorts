@@ -1,0 +1,48 @@
+{
+ "palette": 0,
+ "voice": "af_heart",
+ "hook": "3 tricks that quietly make you say yes.",
+ "facts": [
+  "*One*: reciprocity. In *1971*, a free Coke made strangers buy more raffle tickets.",
+  "*Two*: scarcity. Cookies from a nearly empty jar were rated *tastier*.",
+  "*Three*: social proof. Hotel notes saying most guests reuse towels worked *better*."
+ ],
+ "outro": "Now you'll spot all three.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎩",
+    "🐇"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🥤",
+    "🎟️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🍪",
+    "🫙"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏨",
+    "🧺"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👀"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

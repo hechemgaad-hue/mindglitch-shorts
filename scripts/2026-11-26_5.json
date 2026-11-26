@@ -1,0 +1,55 @@
+{
+ "palette": 1,
+ "voice": "af_bella",
+ "hook": "Why does your recorded voice sound so weird?",
+ "facts": [
+  "When you speak, sound reaches your ears *two* ways.",
+  "Through the air, and through your *skull bones*.",
+  "Bone conduction boosts *deeper tones* that a recording never captures.",
+  "Everyone else hears the recording version. You've only heard the *inside* version."
+ ],
+ "outro": "That weird voice? It's the real one.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎙️",
+    "😬"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 2,
+   "unit": "",
+   "label": "Paths for sound"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💨",
+    "💀"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔉",
+    "🦴"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪞",
+    "👂"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎙️"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

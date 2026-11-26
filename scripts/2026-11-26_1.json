@@ -1,0 +1,57 @@
+{
+ "palette": 3,
+ "voice": "bm_george",
+ "hook": "Group brainstorming doesn't work. Here's why.",
+ "facts": [
+  "In *1953*, an ad man named Osborn popularized group brainstorming.",
+  "In *1987*, Diehl and Stroebe compared groups with people working alone.",
+  "Solo thinkers produced *more ideas* once their lists were pooled.",
+  "The culprit is *production blocking*: you wait your turn and forget your idea."
+ ],
+ "outro": "Brainstorm alone first. Meet second.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "💡",
+    "👥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📢",
+    "🏢"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "⚖️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧍",
+    "💡",
+    "➕"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⏳",
+    "🤐"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

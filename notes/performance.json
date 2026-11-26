@@ -1497,6 +1497,56 @@
    "format": "tip",
    "scheduled": "2026-11-25 20:30 Europe/Paris",
    "checks": []
+  },
+  {
+   "file": "2026-11-26_1_v1.mp4",
+   "topic": "group brainstorming myth (Diehl Stroebe 1987)",
+   "hook_type": "affirmation surprenante",
+   "palette": 3,
+   "voice": "bm_george",
+   "format": "myth",
+   "scheduled": "2026-11-26 09:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-26_2_v1.mp4",
+   "topic": "top 3 persuasion tricks",
+   "hook_type": "liste/promesse",
+   "palette": 0,
+   "voice": "af_heart",
+   "format": "top3",
+   "scheduled": "2026-11-26 12:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-26_3_v1.mp4",
+   "topic": "gambler's fallacy coin quiz",
+   "hook_type": "question",
+   "palette": 2,
+   "voice": "am_michael",
+   "format": "quiz",
+   "scheduled": "2026-11-26 15:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-26_4_v1.mp4",
+   "topic": "robbers cave (Sherif 1954)",
+   "hook_type": "promesse/curiosité",
+   "palette": 4,
+   "voice": "bf_emma",
+   "format": "experience",
+   "scheduled": "2026-11-26 18:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-26_5_v1.mp4",
+   "topic": "recorded voice bone conduction",
+   "hook_type": "question",
+   "palette": 1,
+   "voice": "af_bella",
+   "format": "what_if",
+   "scheduled": "2026-11-26 20:30 Europe/Paris",
+   "checks": []
   }
  ]
 }
