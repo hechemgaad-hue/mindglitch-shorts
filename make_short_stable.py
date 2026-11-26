@@ -474,6 +474,9 @@ def main(script_path, out):
         sprites.append(dict(img=bokeh_sprite(r, tuple(int(v) for v in col)),
                             x=rng.uniform(0, 540), y=rng.uniform(0, 960), vx=rng.uniform(-8, 8), vy=-rng.uniform(10, 40)))
     f_title = ImageFont.truetype(FONT, 40)
+    NB = 31
+    bphase = rng.uniform(0, 6.28, NB)
+    bfreq = rng.uniform(5, 11, NB)
     nframes = int(total * FPS) + 1
     ff = subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
@@ -507,6 +510,16 @@ def main(script_path, out):
         draw_visual(im, spec, local, t, accent, vis_fonts)
         im = transition(im, si, local)
         d = ImageDraw.Draw(im, "RGBA")
+        # égaliseur réactif à la voix dans le bas d'écran (au-dessus de la zone d'interface Shorts)
+        lvl = float(rms[min(int(t / 0.02), nb - 1)]) if nb else 0.0
+        lvl = min(1.0, lvl * 3.2)
+        for bi in range(NB):
+            u = (bi - (NB - 1) / 2) / ((NB - 1) / 2)
+            env = 1 - 0.55 * abs(u) ** 1.5
+            wob = 0.5 + 0.5 * np.sin(t * bfreq[bi] + bphase[bi])
+            hh = 10 + 150 * env * (0.12 + lvl * (0.35 + 0.65 * wob))
+            bx = W / 2 + u * 430
+            d.rounded_rectangle((bx - 9, 1595 - hh / 2, bx + 9, 1595 + hh / 2), 9, fill=accent + (int(120 + 90 * lvl),))
         # page de sous-titres courante
         words, edges = sg["words"], sg["edges"]
         cur_w = max(0, int(np.searchsorted(edges, t, side="right") - 1))

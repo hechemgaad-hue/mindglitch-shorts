@@ -32,7 +32,7 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Particules d'emojis (pluie, explosion) au moment de la révélation
 - [x] Sous-titres : éviter les coupes de phrase en fragments orphelins en regroupant par unités de sens (fait 2026-11-22)
 - [ ] Scènes à pair d'emojis générique (ex. 🔁❓ pour "switch", 🏫🌍 pour "schools") : dictionnaire de scènes plus précises
-- [ ] Rythme de voix plus naturel : pauses plus longues avant la révélation, vitesse légèrement variable
+- [x] Pauses dramatiques avant la révélation (fait 2026-11-26) ; reste : vitesse de voix légèrement variable
 - [ ] Musique différente selon la palette (tonalité, tempo, instrumentation)
 - [ ] Mise en avant visuelle de la révélation (zoom plus fort, mot en grand plein écran)
 - [ ] Scènes à un seul emoji (ex. "2006.") : ajouter une carte date/année plein écran ou un second visuel pertinent
@@ -112,3 +112,12 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Réserve : l'égaliseur (83 % de la hauteur) peut être légèrement recouvert par l'interface Shorts (titre/boutons) ; à surveiller, remonter à ~80 % si gênant.
 - Note rythme/dynamisme du bas avant/après : 3 -> 4 (estimé).
 - Nouvelles idées : dictionnaire d'emojis précis par concept (🧠🏷️ générique) ; mot-clé géant en filigrane derrière la révélation.
+
+### 2026-11-26 - Pauses dramatiques (accroche, révélation, chute)
+- Constaté (10 vidéos des 25 et 26/11, planches de 6 images, ffprobe, volumedetect) : toutes 1080x1920 + audio, 18,6 à 26,5 s, volume moyen -13,5 à -15,2 dB, crête -1,3 à -1,5 dB (homogène). performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : pause uniforme de 0,18 s entre toutes les phrases (révélation non soulignée), paires d'emojis génériques (🧠🏷️ répété, 🎙️😬, 🧍💡➕), scènes à un seul emoji (🪙, 👀), barres à 0 % au début de scène. Sous-titres entiers, égaliseur et transitions OK.
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> pauses après l'accroche 0,34 s, avant le dernier fait (révélation) 0,40 s, avant la chute 0,30 s (au lieu de 0,18 s).
+- Test (scripts/2026-11-26_3, ancien vs nouveau, 8 images) : 1080x1920, audio, 21,35 s -> 21,85 s, -14,4 -> -14,3 dB, crête -1,5 -> -1,3 dB ; sous-titres entiers, visuels et rythme inchangés. Promu (make_short_stable.py = version précédente). Le gain est auditif : jugé par la durée et le découpage, pas écouté.
+- Note rythme de voix avant/après : 3,5 -> 4 (estimé).
+- Nouvelles idées : dictionnaire d'emojis précis par concept ; carte année/mot-clé plein écran pour les scènes à un seul emoji.
