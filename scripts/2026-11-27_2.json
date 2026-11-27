@@ -1,0 +1,62 @@
+{
+ "palette": 4,
+ "voice": "af_heart",
+ "hook": "Habits take 21 days? That's a myth.",
+ "facts": [
+  "The *21 days* idea is often traced to a 1960 self-help book.",
+  "In *2009*, Phillippa Lally tracked *96* volunteers building a new habit.",
+  "The median time was *66 days*.",
+  "Some took *18* days. Others needed up to *254*."
+ ],
+ "outro": "Twenty-one days? Try sixty-six.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📅",
+    "❌"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "📅"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 96,
+   "unit": "",
+   "label": "Volunteers tracked"
+  },
+  {
+   "type": "number",
+   "value": 66,
+   "unit": " days",
+   "label": "Median to form a habit"
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Fastest",
+     18
+    ],
+    [
+     "Slowest",
+     254
+    ]
+   ],
+   "unit": " days"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🐢",
+    "✅"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

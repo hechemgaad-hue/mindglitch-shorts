@@ -46,3 +46,8 @@ top 3: reciprocity (Regan 1971), scarcity (Worchel cookies), social proof (hotel
 gambler's fallacy coin quiz (Monte Carlo 1913)
 robbers cave experiment (Sherif 1954)
 why your recorded voice sounds weird (bone conduction)
+stroop effect quiz (Stroop 1935)
+21-day habit myth (Lally 2009, 96 volunteers, median 66 days)
+good samaritan hurry study (Darley Batson 1973)
+overjustification effect (Lepper Greene Nisbett 1973)
+protege effect teach to learn (Nestojko 2014)

@@ -1,0 +1,57 @@
+{
+ "palette": 2,
+ "voice": "am_adam",
+ "hook": "Want to remember more? Pretend you'll teach it.",
+ "facts": [
+  "In *2014*, Nestojko's team gave students a passage to read.",
+  "Half expected to *teach* it later. Half expected a *test*.",
+  "Then *everyone* took the same test. Nobody actually taught.",
+  "The would-be teachers recalled *more* and organized ideas *better*."
+ ],
+ "outro": "So pretend you're teaching it.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📚",
+    "💡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "👀"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎓",
+    "📝"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📝",
+    "🤔"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "✅",
+    "📈"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "🎓"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

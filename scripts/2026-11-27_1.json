@@ -1,0 +1,57 @@
+{
+ "palette": 1,
+ "voice": "am_michael",
+ "hook": "Name the ink color, not the word. Ready?",
+ "facts": [
+  "Picture the word *RED* printed in blue ink.",
+  "Your brain shouts *red*. The right answer is *blue*.",
+  "Reading is so *automatic* that it fights back and slows you down.",
+  "John Ridley Stroop showed this in *1935*, and it still works."
+ ],
+ "outro": "Ink color first. Always.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎨",
+    "🔤"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔴",
+    "🔵"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧠",
+    "⚡"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "🐢"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔬",
+    "📅"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏁",
+    "🎨"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

@@ -1,0 +1,64 @@
+{
+ "palette": 0,
+ "voice": "bm_george",
+ "hook": "Would you stop to help a stranger?",
+ "facts": [
+  "In *1973*, seminary students prepared talks, some on the *Good Samaritan*.",
+  "Then some were told they were *late*.",
+  "On the way, an actor slumped in a doorway, coughing.",
+  "Only *10%* of the hurried students stopped. With time, *63%* did."
+ ],
+ "outro": "Hurry beats good intentions.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤝",
+    "🚶"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📖",
+    "⛪"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⏰",
+    "🏃"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤒",
+    "🚪"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Hurried",
+     10
+    ],
+    [
+     "Time to spare",
+     63
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💨",
+    "🙈"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

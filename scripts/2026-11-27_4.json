@@ -1,0 +1,64 @@
+{
+ "palette": 3,
+ "voice": "bf_emma",
+ "hook": "What if you got paid to do what you love?",
+ "facts": [
+  "In *1973*, researchers watched preschoolers who loved drawing with markers.",
+  "Some were promised a *certificate* for drawing. Others weren't.",
+  "Later, the promised-reward kids drew only *half* as much.",
+  "A *surprise* reward didn't cause this. Only the *promised* one did."
+ ],
+ "outro": "Rewards can turn play into work.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "💰",
+    "❤️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🖍️",
+    "🎨"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🏅",
+    "📜"
+   ]
+  },
+  {
+   "type": "bars",
+   "items": [
+    [
+     "Promised reward",
+     9
+    ],
+    [
+     "No reward",
+     17
+    ]
+   ],
+   "unit": "%"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎁",
+    "😮"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎮",
+    "💼"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

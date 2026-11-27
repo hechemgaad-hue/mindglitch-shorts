@@ -1547,6 +1547,56 @@
    "format": "what_if",
    "scheduled": "2026-11-26 20:30 Europe/Paris",
    "checks": []
+  },
+  {
+   "file": "2026-11-27_1_v1.mp4",
+   "topic": "stroop effect (1935)",
+   "hook_type": "question/consigne",
+   "palette": 1,
+   "voice": "am_michael",
+   "format": "quiz",
+   "scheduled": "2026-11-27 09:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-27_2_v1.mp4",
+   "topic": "21-day habit myth (Lally 2009)",
+   "hook_type": "affirmation/mythe",
+   "palette": 4,
+   "voice": "af_heart",
+   "format": "myth",
+   "scheduled": "2026-11-27 12:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-27_3_v1.mp4",
+   "topic": "good samaritan hurry (Darley Batson 1973)",
+   "hook_type": "question",
+   "palette": 0,
+   "voice": "bm_george",
+   "format": "experience",
+   "scheduled": "2026-11-27 15:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-27_4_v1.mp4",
+   "topic": "overjustification (Lepper 1973)",
+   "hook_type": "question what-if",
+   "palette": 3,
+   "voice": "bf_emma",
+   "format": "what_if",
+   "scheduled": "2026-11-27 18:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-27_5_v1.mp4",
+   "topic": "protege effect (Nestojko 2014)",
+   "hook_type": "promesse/astuce",
+   "palette": 2,
+   "voice": "am_adam",
+   "format": "tip",
+   "scheduled": "2026-11-27 20:30 Europe/Paris",
+   "checks": []
   }
  ]
 }
