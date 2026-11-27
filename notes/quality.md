@@ -24,6 +24,7 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 ## Backlog d'idées (par priorité)
 - [x] Normalisation du volume (cible environ -14 LUFS) et léger ducking de la musique sous la voix (fait 2026-11-18)
 - [x] Emojis qui apparaissent minuscules au début d'une scène : pop démarrant à 60 % de taille (fait 2026-11-21)
+- [x] Libellés de barres sans chevauchement (fait 2026-11-27)
 - [ ] Fond animé qui occupe le bas (vagues/particules plus denses) pour renforcer le rythme visuel
 - [x] Transitions variées entre scènes (glissement, zoom traversant, glitch) au lieu d'un seul flash (fait 2026-11-24)
 - [ ] Nouveaux types de visuels : comparaison "vs" à deux colonnes, liste qui se coche, carte-citation, chronologie, jauge
@@ -42,6 +43,7 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Image de couverture (miniature) soignée si la chaîne l'autorise (videoThumbnailUrl dans Metricool, nécessite une chaîne vérifiée)
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
 
+- [ ] Sous-titres : espacement irrégulier sur les pages à mot trait d'union ("THE   PROMISED-REWARD") et visuel 'number' en count-up vu mi-animation (13 days pour 66) : accélérer le count-up
 - [ ] Playbook/scripts : liste de paires d'emojis précises par concept (winners, save, Africa...) à intégrer dans la consigne d'écriture des scripts
 
 ## Journal des améliorations
@@ -121,3 +123,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Test (scripts/2026-11-26_3, ancien vs nouveau, 8 images) : 1080x1920, audio, 21,35 s -> 21,85 s, -14,4 -> -14,3 dB, crête -1,5 -> -1,3 dB ; sous-titres entiers, visuels et rythme inchangés. Promu (make_short_stable.py = version précédente). Le gain est auditif : jugé par la durée et le découpage, pas écouté.
 - Note rythme de voix avant/après : 3,5 -> 4 (estimé).
 - Nouvelles idées : dictionnaire d'emojis précis par concept ; carte année/mot-clé plein écran pour les scènes à un seul emoji.
+
+### 2026-11-27 - Libellés de barres sur deux lignes sans chevauchement
+- Constaté (10 vidéos des 26 et 27/11, planches de 6 images, ffprobe, volumedetect) : toutes 1080x1920 + audio, 18,6 à 26,5 s, volume moyen -13,5 à -15,2 dB, crête -1,3 à -1,5 dB. performance.json : toujours aucune statistique, croisement impossible.
+- Défauts : libellés de barres qui se chevauchent ("PROMISED REWARD" / "NO REWARD" en 27_4, illisible), paires d'emojis génériques (📖👀, 🧠⚡), count-up du nombre capturé en cours d'animation, espacement irrégulier sur "THE PROMISED-REWARD". Sous-titres entiers, égaliseur, transitions OK.
+- Notes moyennes (estimées) : lisibilité 4 (3 sur 27_4) ; illustration 3 ; rythme 4 ; son 4 ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> visuel "bars" : libellé coupé en 2 lignes max et police réduite (50 -> 28 px) pour tenir dans la largeur disponible.
+- Test (scripts/2026-11-27_4, ancien vs nouveau, 6 images + gros plan) : 1080x1920, audio, 20,06 s, -14,6 dB identiques ; libellés lisibles et séparés, sous-titres et reste inchangés. Promu (make_short_stable.py = version précédente).
+- Note lisibilité sur ce cas avant/après : 3 -> 5.

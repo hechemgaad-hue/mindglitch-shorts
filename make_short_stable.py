@@ -407,7 +407,18 @@ def main(script_path, out):
         plain = sent.replace("*", "")
         a, sr = kok.create(plain, voice=voice, speed=1.1, lang="en-us")
         assert sr == SR
-        gap = 0.18 if si < len(sentences) - 1 else 0.55
+        # pauses dramatiques : après l'accroche, avant la révélation (dernier fait), avant la chute
+        nS = len(sentences)
+        if si == nS - 1:
+            gap = 0.55
+        elif si == 0:
+            gap = 0.34
+        elif nS >= 4 and si == nS - 3:
+            gap = 0.40
+        elif si == nS - 2:
+            gap = 0.30
+        else:
+            gap = 0.18
         a = np.concatenate([a, np.zeros(int(SR * gap), dtype=a.dtype)])
         words = parse_words(sent)
         dur = len(a) / SR
