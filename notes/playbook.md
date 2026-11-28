@@ -156,3 +156,9 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-27 (soir) - Controle performance : 28e controle vide, aucun verdict
 - Metricool (videos published in range 23->27/11, memes metriques) renvoie 0 ligne : Shorts du 17 au 27/11 non evaluables. Aucun chiffre, donc aucun verdict ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (urgent, 28 controles consecutifs vides) : reconnecter YouTube dans Metricool et/ou relever les vues dans YouTube Studio ; evaluation manuelle sinon.
+
+### 2026-11-28 (nuit) - Controle performance : 29e controle sans stat par video, MAIS 1res donnees niveau chaine (alerte)
+- Metricool "videos published in range" (24->28/11 et 01->28/11) renvoie toujours 0 ligne : aucun verdict 4 h/48 h possible, aucun chiffre fabrique. Configuration active inchangee.
+- Nouveau : l'endpoint evolution donne enfin des vues CHAINE/jour (YTEV02) : 17/11 1539, 18/11 2374, 19/11 2388, 20/11 1428, 21/11 2271, puis 22/11 13, 23/11 2, 24/11 4 (25-27/11 null = retard probable). Abonnes 8 -> 14 (17->22/11), 0 gagne depuis le 22/11. Non attribuable a une video precise (5 Shorts/jour publies).
+- Lecture prudente : ~1400-2400 vues/jour du 17 au 21/11 (soit ~300-480 vues/Short) puis effondrement brutal le 22/11. Cause inconnue : retard de remontee des donnees recentes OU probleme reel de diffusion (restriction/contenu repetitif/Shorts non listes ou prives ?). Aucun changement de strategie decide : un seul signal niveau chaine ne permet pas d'isoler une variable.
+- Action proprietaire (urgent) : ouvrir YouTube Studio > Analytique (vues par video, 17->28/11) et verifier avertissements / statut de monetisation / visibilite des Shorts publies depuis le 22/11 ; communiquer les chiffres par video pour evaluation manuelle 4 h/48 h.
