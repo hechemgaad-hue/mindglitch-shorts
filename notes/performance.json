@@ -2092,6 +2092,56 @@
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
     }
    ]
+  },
+  {
+   "file": "2026-11-28_1_v1.mp4",
+   "topic": "top 3: curse of knowledge, false consensus, illusion of transparency",
+   "hook_type": "liste/promesse",
+   "palette": 3,
+   "voice": "af_nicole",
+   "format": "top3",
+   "scheduled": "2026-11-28 09:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-28_2_v1.mp4",
+   "topic": "prospective hindsight pre-mortem (1989)",
+   "hook_type": "promesse/astuce",
+   "palette": 0,
+   "voice": "am_eric",
+   "format": "tip",
+   "scheduled": "2026-11-28 12:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-28_3_v1.mp4",
+   "topic": "subliminal popcorn myth (Vicary 1957)",
+   "hook_type": "question/mythe",
+   "palette": 4,
+   "voice": "bm_lewis",
+   "format": "myth",
+   "scheduled": "2026-11-28 15:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-28_4_v1.mp4",
+   "topic": "door change blindness (Simons Levin 1998)",
+   "hook_type": "question",
+   "palette": 1,
+   "voice": "af_heart",
+   "format": "experience",
+   "scheduled": "2026-11-28 18:00 Europe/Paris",
+   "checks": []
+  },
+  {
+   "file": "2026-11-28_5_v1.mp4",
+   "topic": "phone on table presence (2013)",
+   "hook_type": "question what-if",
+   "palette": 2,
+   "voice": "bf_emma",
+   "format": "what_if",
+   "scheduled": "2026-11-28 20:30 Europe/Paris",
+   "checks": []
   }
  ],
  "channel_daily": {
