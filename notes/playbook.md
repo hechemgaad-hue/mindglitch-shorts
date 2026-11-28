@@ -166,3 +166,7 @@ But : que chaque vidéo soit clairement différente des autres et utile au spect
 ### 2026-11-28 (apres-midi) - Controle performance : 30e controle sans stat par video, aucun verdict
 - Metricool (videos published in range 24->28/11) renvoie 0 ligne ; evolution chaine (YTEV02) inchangee depuis la nuit : 22/11 13 vues, 23/11 2, 24/11 4, 25-27/11 null, abonnes 14 stables. Aucun chiffre par video, donc aucun verdict 4 h/48 h ni changement de strategie. Configuration active inchangee.
 - Action proprietaire (urgent, >11 jours sans donnees par video, chute chaine depuis le 22/11) : verifier YouTube Studio (avertissements, visibilite des Shorts, liaison Metricool) et fournir les vues par video.
+
+### 2026-11-28 (soir) - Controle performance : 31e controle sans stat par video, aucun verdict
+- Metricool (videos published in range 24->28/11 ; all videos 01->28/11) renvoie 0 ligne. Evolution chaine inchangee : 22/11 13 vues, 23/11 2, 24/11 4, 25-27/11 null, abonnes 14 stables. Aucun chiffre par video : ni verdict 4 h/48 h ni changement de strategie. Configuration active inchangee.
+- Action proprietaire (urgent) : verifier YouTube Studio (avertissements, visibilite des Shorts depuis le 22/11, liaison Metricool) et fournir les vues par video.
