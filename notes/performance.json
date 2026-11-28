@@ -1,7 +1,7 @@
 {
  "videos": [
   {
-   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict. | 2026-11-18 21:25: toujours aucune stat (>27h). Aucun verdict. | 2026-11-19 01:25: toujours aucune stat (>30h). Aucun verdict. | 2026-11-19 16:25: toujours aucune stat (>46 h). Aucun verdict. | 2026-11-19 21:30: toujours aucune stat (>51 h). Aucun verdict. | 2026-11-20 00:25: toujours aucune stat. Aucun verdict. | 2026-11-20 16:25: toujours aucune stat. Aucun verdict. | 2026-11-20 21:25: toujours aucune stat. Aucun verdict. | 2026-11-21 01:30: toujours aucune stat. Aucun verdict. | 2026-11-21 16:25: toujours aucune stat. Aucun verdict. | 2026-11-21 21:30: toujours aucune stat. Aucun verdict. | 2026-11-22 01:30: toujours aucune stat. Aucun verdict. | 2026-11-22 16:30: toujours aucune stat. Aucun verdict. | 2026-11-22 21:30: toujours aucune stat. Aucun verdict. | 2026-11-23 01:30: toujours aucune stat. Aucun verdict. | 2026-11-23 16:30: toujours aucune stat. Aucun verdict. | 2026-11-23 21:25: toujours aucune stat. Aucun verdict. | 2026-11-24 01:30: toujours aucune stat. Aucun verdict. | 2026-11-24 16:30: toujours aucune stat. Aucun verdict. | 2026-11-24 21:25: toujours aucune stat. Aucun verdict. | 2026-11-25 01:30: toujours aucune stat. Aucun verdict. | 2026-11-25 16:30: toujours aucune stat. Aucun verdict. | 2026-11-25 21:30: toujours aucune stat. Aucun verdict. | 2026-11-26 01:30: toujours aucune stat. Aucun verdict. | 2026-11-26 16:30: toujours aucune stat. Aucun verdict. | 2026-11-26 21:30: toujours aucune stat. Aucun verdict. | 2026-11-27 01:30: toujours aucune stat. Aucun verdict. | 2026-11-27 16:25: toujours aucune stat. Aucun verdict. | 2026-11-27 21:30: toujours aucune stat. Aucun verdict. | 2026-11-28 01:30: toujours aucune stat par video (stats chaine seulement, voir channel_daily). Aucun verdict.",
+   "note": "Shorts du 2026-11-17 publies 18:00/20:00/21:30 (ids q2VL_H_RyUU, wNwrisEAQZE, btl_lh7FPHg; scripts/2026-11-17_1-3.json): aucune statistique renvoyee par Metricool au 2026-11-18 16:25 (>18h). Aucun verdict. | 2026-11-18 21:25: toujours aucune stat (>27h). Aucun verdict. | 2026-11-19 01:25: toujours aucune stat (>30h). Aucun verdict. | 2026-11-19 16:25: toujours aucune stat (>46 h). Aucun verdict. | 2026-11-19 21:30: toujours aucune stat (>51 h). Aucun verdict. | 2026-11-20 00:25: toujours aucune stat. Aucun verdict. | 2026-11-20 16:25: toujours aucune stat. Aucun verdict. | 2026-11-20 21:25: toujours aucune stat. Aucun verdict. | 2026-11-21 01:30: toujours aucune stat. Aucun verdict. | 2026-11-21 16:25: toujours aucune stat. Aucun verdict. | 2026-11-21 21:30: toujours aucune stat. Aucun verdict. | 2026-11-22 01:30: toujours aucune stat. Aucun verdict. | 2026-11-22 16:30: toujours aucune stat. Aucun verdict. | 2026-11-22 21:30: toujours aucune stat. Aucun verdict. | 2026-11-23 01:30: toujours aucune stat. Aucun verdict. | 2026-11-23 16:30: toujours aucune stat. Aucun verdict. | 2026-11-23 21:25: toujours aucune stat. Aucun verdict. | 2026-11-24 01:30: toujours aucune stat. Aucun verdict. | 2026-11-24 16:30: toujours aucune stat. Aucun verdict. | 2026-11-24 21:25: toujours aucune stat. Aucun verdict. | 2026-11-25 01:30: toujours aucune stat. Aucun verdict. | 2026-11-25 16:30: toujours aucune stat. Aucun verdict. | 2026-11-25 21:30: toujours aucune stat. Aucun verdict. | 2026-11-26 01:30: toujours aucune stat. Aucun verdict. | 2026-11-26 16:30: toujours aucune stat. Aucun verdict. | 2026-11-26 21:30: toujours aucune stat. Aucun verdict. | 2026-11-27 01:30: toujours aucune stat. Aucun verdict. | 2026-11-27 16:25: toujours aucune stat. Aucun verdict. | 2026-11-27 21:30: toujours aucune stat. Aucun verdict. | 2026-11-28 01:30: toujours aucune stat par video (stats chaine seulement, voir channel_daily). Aucun verdict. | 2026-11-28 16:30: toujours aucune stat par video. Aucun verdict.",
    "videoIds": [
     "q2VL_H_RyUU",
     "wNwrisEAQZE",
@@ -114,6 +114,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -223,6 +228,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -332,6 +342,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -414,6 +429,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -478,6 +498,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -542,6 +567,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -606,6 +636,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -670,6 +705,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -734,6 +774,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -798,6 +843,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -862,6 +912,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -926,6 +981,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -990,6 +1050,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1037,6 +1102,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1084,6 +1154,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1131,6 +1206,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1178,6 +1258,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1225,6 +1310,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1272,6 +1362,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1319,6 +1414,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1366,6 +1466,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1413,6 +1518,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1460,6 +1570,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1497,6 +1612,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1534,6 +1654,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1571,6 +1696,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1608,6 +1738,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1645,6 +1780,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1671,6 +1811,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1697,6 +1842,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1723,6 +1873,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1749,6 +1904,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1775,6 +1935,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1796,6 +1961,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1817,6 +1987,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1838,6 +2013,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1859,6 +2039,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1880,6 +2065,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1901,6 +2091,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1922,6 +2117,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1943,6 +2143,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1964,6 +2169,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -1985,6 +2195,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -2006,6 +2221,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -2027,6 +2247,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -2048,6 +2273,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -2069,6 +2299,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
@@ -2090,6 +2325,11 @@
      "at": "2026-11-28T01:30+01:00",
      "views": null,
      "note": "videos published in range vide (29e controle). Pas de stat par video. Aucun verdict."
+    },
+    {
+     "at": "2026-11-28T16:30+01:00",
+     "views": null,
+     "note": "Metricool videos published in range 24->28/11 vide (0 ligne). Aucun verdict."
     }
    ]
   },
