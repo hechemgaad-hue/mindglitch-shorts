@@ -1,0 +1,56 @@
+{
+ "palette": 1,
+ "voice": "af_heart",
+ "hook": "He swapped himself mid-conversation. Would you notice?",
+ "facts": [
+  "In *1998*, a researcher stopped strangers to ask for directions.",
+  "Mid-chat, two workers carried a *door* between them.",
+  "Behind the door, he *swapped places* with a different man.",
+  "Roughly *half* of people never noticed the switch."
+ ],
+ "outro": "Would you have noticed?",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🧍",
+    "🔄"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗺️",
+    "🧍"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🚪",
+    "🛠️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔀",
+    "👥"
+   ]
+  },
+  {
+   "type": "grid",
+   "total": 10,
+   "on": 5,
+   "label": "never noticed"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤔",
+    "👀"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

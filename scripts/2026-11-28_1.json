@@ -1,0 +1,56 @@
+{
+ "palette": 3,
+ "voice": "af_nicole",
+ "hook": "3 mind traps that ruin every conversation.",
+ "facts": [
+  "*One*: the curse of knowledge. Tappers tapped famous songs.",
+  "They predicted *half* would guess the song. Only *2.5%* did.",
+  "*Two*: false consensus. We assume most people *agree* with us.",
+  "*Three*: the illusion of transparency. Others see *less* of your nerves."
+ ],
+ "outro": "Beware these three mind traps.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🗣️",
+    "🧠"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎵",
+    "👆"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎧",
+    "❓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🤝",
+    "🙋"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "😰",
+    "🫥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🪤"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

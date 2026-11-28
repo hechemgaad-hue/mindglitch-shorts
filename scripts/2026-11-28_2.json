@@ -1,0 +1,54 @@
+{
+ "palette": 0,
+ "voice": "am_eric",
+ "hook": "Plan anything better with one gloomy trick.",
+ "facts": [
+  "In *1989*, researchers tested *prospective hindsight*.",
+  "One group imagined an event *had already happened*. Then explained why.",
+  "They found about *30%* more correct reasons than people predicting ahead.",
+  "Try it: before your next plan, write *why it failed*."
+ ],
+ "outro": "Imagine the failure first.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "🔮"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📅",
+    "🔬"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "⏪",
+    "💭"
+   ]
+  },
+  {
+   "type": "number",
+   "value": 30,
+   "unit": "%",
+   "label": "more correct reasons"
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "✍️",
+    "💥"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🎯"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}

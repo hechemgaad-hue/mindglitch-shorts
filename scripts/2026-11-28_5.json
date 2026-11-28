@@ -1,0 +1,56 @@
+{
+ "palette": 2,
+ "voice": "bf_emma",
+ "hook": "What if your phone just sits on the table?",
+ "facts": [
+  "In *2013*, strangers chatted for *10 minutes* about something meaningful.",
+  "Some chatted with a *phone* nearby. Others had a *notebook* instead.",
+  "The phone pairs reported less *closeness* and less *trust*.",
+  "Just its *presence* seemed to matter."
+ ],
+ "outro": "So maybe put the phone away.",
+ "visuals": [
+  {
+   "type": "emoji",
+   "emojis": [
+    "📱",
+    "🍽️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "💬",
+    "⏱️"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📱",
+    "📓"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "📉",
+    "🤝"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "👻",
+    "📱"
+   ]
+  },
+  {
+   "type": "emoji",
+   "emojis": [
+    "🙌"
+   ]
+  }
+ ],
+ "title": "Psychology Facts"
+}
