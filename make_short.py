@@ -487,6 +487,8 @@ def main(script_path, out):
         m = json.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])
         af = (f"loudnorm={tgt}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
               f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+        # limiteur final (sur-échantillonné) : empêche tout dépassement de crête après loudnorm / encodage AAC
+        af += ",alimiter=limit=0.82:attack=3:release=60:level=disabled"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", af, "-ar", str(SR), wav], check=True)
     except Exception as e:
         print("loudnorm ignoré :", e)

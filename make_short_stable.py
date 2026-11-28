@@ -301,8 +301,24 @@ def draw_visual(im, spec, lp, t, accent, fonts):
             d.rounded_rectangle((x, base_y - hgt, x + bw, base_y), 28, fill=col)
             d.text((x + bw / 2, base_y - hgt - 62), f"{int(round(v * e))}{unit}", font=f_val, fill=(255, 255, 255),
                    anchor="mm", stroke_width=6, stroke_fill=(10, 10, 20))
-            d.text((x + bw / 2, base_y + 56), lab.upper(), font=f_lab, fill=(255, 255, 255), anchor="mm",
-                   stroke_width=4, stroke_fill=(10, 10, 20))
+            # libellé : retour à la ligne + réduction pour ne jamais chevaucher la barre voisine
+            maxw = bw + gap - 30
+            words = lab.upper().split()
+            for fs in (50, 44, 38, 32, 28):
+                f_try = ImageFont.truetype(FONT, fs)
+                lines, cur = [], ""
+                for w_ in words:
+                    t_ = (cur + " " + w_).strip()
+                    if d.textlength(t_, font=f_try) <= maxw or not cur:
+                        cur = t_
+                    else:
+                        lines.append(cur); cur = w_
+                lines.append(cur)
+                if len(lines) <= 2 and all(d.textlength(l_, font=f_try) <= maxw for l_ in lines):
+                    break
+            for li, l_ in enumerate(lines):
+                d.text((x + bw / 2, base_y + 50 + li * (fs + 8)), l_, font=f_try, fill=(255, 255, 255), anchor="mm",
+                       stroke_width=4, stroke_fill=(10, 10, 20))
     elif typ == "grid":
         total, on = spec.get("total", 20), spec.get("on", 5)
         cols = 5

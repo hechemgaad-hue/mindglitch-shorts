@@ -44,6 +44,8 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - [ ] Synchronisation mot à mot plus précise (alignement réel de la voix si un outil local est disponible)
 
 - [ ] Sous-titres : espacement irrégulier sur les pages à mot trait d'union ("THE   PROMISED-REWARD") et visuel 'number' en count-up vu mi-animation (13 days pour 66) : accélérer le count-up
+- [ ] Années ("1935", "1960", "2006") illustrées par l'emoji calendrier "July 17" : générer une carte année plein écran (vu 27_3, 28_2)
+- [ ] Glissement de transition : liseré/emoji de l'autre bord visible (28_3, dernière image) : remplissage du fond
 - [ ] Playbook/scripts : liste de paires d'emojis précises par concept (winners, save, Africa...) à intégrer dans la consigne d'écriture des scripts
 
 ## Journal des améliorations
@@ -131,3 +133,11 @@ Ne jamais modifier ni supprimer une publication Metricool existante.
 - Changé : make_short.py -> visuel "bars" : libellé coupé en 2 lignes max et police réduite (50 -> 28 px) pour tenir dans la largeur disponible.
 - Test (scripts/2026-11-27_4, ancien vs nouveau, 6 images + gros plan) : 1080x1920, audio, 20,06 s, -14,6 dB identiques ; libellés lisibles et séparés, sous-titres et reste inchangés. Promu (make_short_stable.py = version précédente).
 - Note lisibilité sur ce cas avant/après : 3 -> 5.
+
+### 2026-11-28 - Limiteur de crête final (écrêtage)
+- Constaté (10 vidéos des 27 et 28/11, planches de 6 images, ffprobe, volumedetect) : toutes 1080x1920 + audio, 17,8 à 28,8 s, volume moyen -13,6 à -15,2 dB. Crête -1,3 à -1,5 dB sauf 28_1 : 0,0 dB (true peak +1,2 dBTP, écrêtage). performance.json : toujours aucune statistique par vidéo, croisement impossible.
+- Défauts : écrêtage audio 28_1 ; calendrier "July 17" utilisé pour des années (1935, 1960) ; liseré de glissement visible (28_3) ; paires d'emojis génériques (🔁👥) ; libellés de barres encore superposés dans 27_4 (rendue avant le correctif du 27/11).
+- Notes moyennes (estimées) : lisibilité 4,5 ; illustration 3 ; rythme 4 ; son 4 (3 sur 28_1) ; cohérence fond 3 ; différence 3,5 ; faits non revérifiés.
+- Changé : make_short.py -> alimiter (limit 0,82, sur-échantillonné) après loudnorm.
+- Test (scripts/2026-11-28_1, ancien vs nouveau, 6 images + ffprobe) : 1080x1920, audio, 28,83 s identique ; crête vraie -0,0 -> -1,6 dBTP, max -0,0 -> -1,7 dB, moyen -14,5 dB identique ; visuels/sous-titres identiques. Promu (make_short_stable.py = version précédente).
+- Note son sur ce cas avant/après : 3 -> 4,5.
